@@ -16,9 +16,6 @@ RUN pip install --no-cache-dir --default-timeout=1000 --retries 5 -r requirement
 # Copy application
 COPY . .
 
-# Pre-download the sentence-transformers model
-RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
-
 # Expose port
 EXPOSE 5000
 
