@@ -1,33 +1,23 @@
-FROM python:3.12-slim as builder
+FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install build dependencies
+# Install minimal build dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy and install requirements
+# Copy only necessary files
 COPY requirements.txt .
-RUN pip install --user --no-cache-dir --default-timeout=1000 -r requirements.txt
+COPY scripts/ ./scripts/
+COPY rag_data/ ./rag_data/
+COPY wsgi.py .
 
-# Final stage - lightweight runtime
-FROM python:3.12-slim
+# Install Python dependencies with aggressive optimization
+RUN pip install --no-cache-dir --compile --default-timeout=1000 -r requirements.txt && \
+    find /usr/local -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true && \
+    find /usr/local -type f -name '*.pyc' -delete
 
-WORKDIR /app
-
-# Copy installed packages from builder
-COPY --from=builder /root/.local /root/.local
-
-# Set PATH to use installed packages
-ENV PATH=/root/.local/bin:$PATH
-ENV PYTHONPATH=/root/.local:$PYTHONPATH
-
-# Copy application
-COPY . .
-
-# Expose port
 EXPOSE 5000
 
-# Run gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--timeout", "300", "--workers", "1", "--threads", "2", "wsgi:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--timeout", "300", "--workers", "1", "--max-requests", "100", "wsgi:app"]
