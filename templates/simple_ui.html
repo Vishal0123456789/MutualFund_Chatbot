@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTI AMC Factual Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        .header {
+            background: #1f4e78;
+            color: #fff;
+            padding: 16px 24px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .layout {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .sidebar {
+            width: 35%;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            padding: 20px;
+        }
+        .main {
+            flex: 1;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh - 120px);
+            min-height: 500px;
+        }
+        .info-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .banner {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+            border-radius: 6px;
+            padding: 10px 12px;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+        .welcome {
+            background: #f8f9fa;
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 16px;
+            color: #2c3e50;
+        }
+        .examples {
+            background: #f8f9fa;
+            border-radius: 6px;
+            padding: 12px;
+        }
+        .examples h4 {
+            margin: 0 0 10px;
+            font-size: 14px;
+            color: #2c3e50;
+        }
+        .example-list {
+            list-style: disc;
+            padding-left: 18px;
+            color: #2c3e50;
+        }
+        .example-list li {
+            margin: 8px 0;
+            cursor: pointer;
+            color: #1a73e8;
+        }
+        .example-list li:hover {
+            text-decoration: underline;
+        }
+        .chat-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .chat-history {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 6px;
+            margin-bottom: 12px;
+            background: #fafafa;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+        .message {
+            margin: 12px;
+            padding: 12px;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+        .user-message {
+            background-color: #1a73e8;
+            color: #fff;
+            margin-left: auto;
+            text-align: right;
+        }
+        .bot-message {
+            background-color: #ffffff;
+            color: #2c3e50;
+            border: 1px solid #e6e6e6;
+        }
+        .sources {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px dashed #bdc3c7;
+            font-size: 12px;
+        }
+        .source a { color: #1a73e8; text-decoration: none; }
+        .source a:hover { text-decoration: underline; }
+        .input-area {
+            display: flex;
+            gap: 10px;
+            padding-top: 8px;
+        }
+        #question {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        #ask-btn {
+            padding: 12px 18px;
+            background-color: #1a73e8;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #ask-btn:disabled { background-color: #6c757d; cursor: not-allowed; }
+        .loading { text-align: center; color: #7f8c8d; }
+        .error { color: #e74c3c; background: #fadbd8; padding: 10px; border-radius: 6px; }
+    </style>
+</head>
+<body>
+    <div class="header">UTI AMC Factual Chatbot</div>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="info-title">Info Section</div>
+            <div class="banner">⚠️ FACTS-ONLY. NO INVESTMENT ADVICE.</div>
+            <div class="welcome">👋 <strong>Welcome!</strong><br/>I’m your UTI Mutual Fund Factual Assistant. I can help you find specific, factual answers about UTI AMC schemes.</div>
+            <div class="examples">
+                <h4>❓ Example Questions</h4>
+                <ul class="example-list">
+                    <li onclick="askQuestion('What is the expense ratio of UTI ELSS Tax Saver Fund?')">What is the expense ratio?</li>
+                    <li onclick="askQuestion('What is the PB ratio of UTI Mid Cap Fund?')">What is the P/B ratio?</li>
+                </ul>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="chat-title">Chat History</div>
+            <div class="chat-history" id="chat-history"></div>
+            <div id="loading" class="loading" style="display:none;">Thinking...</div>
+            <div id="error" class="error" style="display:none;"></div>
+            <div class="input-area">
+                <input type="text" id="question" placeholder="Type your query here..." autocomplete="off">
+                <button id="ask-btn">Send</button>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        const questionInput = document.getElementById('question');
+        const askBtn = document.getElementById('ask-btn');
+        const chatHistory = document.getElementById('chat-history');
+        const loadingElement = document.getElementById('loading');
+        const errorElement = document.getElementById('error');
+
+        // Focus on input when page loads
+        questionInput.focus();
+
+        // Handle Enter key press
+        questionInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                askQuestionFromInput();
+            }
+        });
+
+        // Handle Send button click
+        askBtn.addEventListener('click', askQuestionFromInput);
+
+        async function askQuestionFromInput() {
+            const question = questionInput.value.trim();
+            if (!question) return;
+            askQuestion(question);
+        }
+
+        async function askQuestion(questionText) {
+            const question = questionText || questionInput.value.trim();
+            if (!question) return;
+
+            // Clear input
+            questionInput.value = '';
+
+            // Add user message to chat
+            addMessageToChat(question, 'user');
+
+            // Show loading
+            loadingElement.style.display = 'block';
+            errorElement.style.display = 'none';
+            askBtn.disabled = true;
+
+            try {
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question })
+                });
+                const data = await response.json();
+                if (!response.ok) throw new Error(data.error || 'Failed to get response');
+                addMessageToChat(data.response, 'bot', data.sources);
+            } catch (error) {
+                console.error('Error:', error);
+                errorElement.textContent = 'Error: ' + error.message;
+                errorElement.style.display = 'block';
+            } finally {
+                loadingElement.style.display = 'none';
+                askBtn.disabled = false;
+                questionInput.focus();
+            }
+        }
+
+        function addMessageToChat(message, sender, sources = []) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+
+            const messageContent = document.createElement('div');
+            messageContent.textContent = message;
+            messageDiv.appendChild(messageContent);
+
+            if (sources && sources.length > 0) {
+                const sourcesDiv = document.createElement('div');
+                sourcesDiv.className = 'sources';
+                sourcesDiv.innerHTML = '<strong>Sources:</strong>';
+                sources.forEach(source => {
+                    const sourceDiv = document.createElement('div');
+                    sourceDiv.className = 'source';
+                    sourceDiv.innerHTML = `
+                        ${source.fund_name} (${source.type.replace('_', ' ')})<br>
+                        <a href="${source.url}" target="_blank">View source</a>
+                    `;
+                    sourcesDiv.appendChild(sourceDiv);
+                });
+                messageDiv.appendChild(sourcesDiv);
+            }
+
+            chatHistory.appendChild(messageDiv);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        }
+
+        // Initial greeting
+        window.addEventListener('DOMContentLoaded', function() {
+            addMessageToChat("Hello! I'm your UTI Mutual Fund Factual Assistant. Ask me anything about UTI AMC schemes!", 'bot');
+        });
+    </script>
+</body>
+</html>

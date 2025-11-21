@@ -1,0 +1,824 @@
+{
+  "expense_information": [
+    {
+      "fund_name": "UTI Large & Mid Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-large-mid-cap-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.97%",
+        "exit_load": "A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-long-term-equity-fund-tax-saving-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.91%",
+        "exit_load": "Nil",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Gold ETF FoF Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-gold-etf-fof-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.18%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-transportation-and-logistics-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.82%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Healthcare Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "1.31%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Small Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-small-cap-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.63%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Value Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-value-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "1.18%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Mid Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-mid-cap-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.91%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-nifty-next-50-index-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.34%",
+        "exit_load": "Nil",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-banking-sector-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "1.11%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-nifty-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.17%",
+        "exit_load": "Nil",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Flexi Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-equity-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "1.01%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Money Market Fund Regular Plan Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-money-market-fund-regular-plan-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.22%",
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Liquid Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-liquid-cash-plan-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.15%",
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI MNC Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-mnc-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "1.25%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI India Consumer Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-india-lifestyle-fund-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "1.57%",
+        "min_sip": 500,
+        "stamp_duty": "0.005%"
+      }
+    },
+    {
+      "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-long-term-advantage-fund-series-iii-direct-growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "1.27%",
+        "stamp_duty": "0.005%"
+      }
+    }
+  ],
+  "performance_metrics": [
+    {
+      "fund_name": "UTI Large & Mid Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-large-mid-cap-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
+      }
+    },
+    {
+      "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-long-term-equity-fund-tax-saving-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 25.55,
+        "pb_ratio": 3.79
+      }
+    },
+    {
+      "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-transportation-and-logistics-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 31.03,
+        "pb_ratio": 5.58
+      }
+    },
+    {
+      "fund_name": "UTI Healthcare Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
+      }
+    },
+    {
+      "fund_name": "UTI Small Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-small-cap-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 32.25,
+        "pb_ratio": 4.33
+      }
+    },
+    {
+      "fund_name": "UTI Value Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-value-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 22.14,
+        "pb_ratio": 3.02
+      }
+    },
+    {
+      "fund_name": "UTI Mid Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-mid-cap-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 32.93,
+        "pb_ratio": 4.83
+      }
+    },
+    {
+      "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-nifty-next-50-index-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 21.6,
+        "pb_ratio": 3.68
+      }
+    },
+    {
+      "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-banking-sector-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 19.02,
+        "pb_ratio": 2.66
+      }
+    },
+    {
+      "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-nifty-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 24.11,
+        "pb_ratio": 3.6
+      }
+    },
+    {
+      "fund_name": "UTI Flexi Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-equity-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 39.3,
+        "pb_ratio": 6.04
+      }
+    },
+    {
+      "fund_name": "UTI MNC Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-mnc-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 37.76,
+        "pb_ratio": 6.93
+      }
+    },
+    {
+      "fund_name": "UTI India Consumer Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-india-lifestyle-fund-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
+      }
+    },
+    {
+      "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-long-term-advantage-fund-series-iii-direct-growth",
+      "chunk_type": "performance_metrics",
+      "data": {
+        "pe_ratio": 29.01,
+        "pb_ratio": 3.07
+      }
+    }
+  ],
+  "fund_characteristics": [
+    {
+      "fund_name": "UTI Large & Mid Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-large-mid-cap-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "5291.10 Cr",
+        "fund_manager": "V Srivatsa",
+        "scheme_type": "EQUITY",
+        "sub_category": "Large & MidCap",
+        "is_elss": "No",
+        "category_label": "EQUITY Large & MidCap"
+      }
+    },
+    {
+      "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-long-term-equity-fund-tax-saving-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "3778.10 Cr",
+        "fund_manager": "Vetri Subramaniam, Lalit Nambiar",
+        "lock_in": "3Y",
+        "scheme_type": "ELSS",
+        "sub_category": "ELSS",
+        "is_elss": "Yes",
+        "category_label": "ELSS"
+      }
+    },
+    {
+      "fund_name": "Where can I get the transaction history?",
+      "source_url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "is_elss": "No"
+      }
+    },
+    {
+      "fund_name": "UTI Gold ETF FoF Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-gold-etf-fof-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "608.97 Cr",
+        "fund_manager": "Ayush Jain",
+        "scheme_type": "DEBT",
+        "sub_category": "Gold",
+        "is_elss": "No",
+        "category_label": "DEBT Gold"
+      }
+    },
+    {
+      "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-transportation-and-logistics-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "4008.33 Cr",
+        "fund_manager": "Sachin Trivedi",
+        "scheme_type": "EQUITY",
+        "sub_category": "Thematic",
+        "is_elss": "No",
+        "category_label": "EQUITY Thematic"
+      }
+    },
+    {
+      "fund_name": "UTI Healthcare Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "1124.88 Cr",
+        "fund_manager": "V Srivatsa, Ritesh Rathod",
+        "scheme_type": "EQUITY",
+        "sub_category": "Sectoral",
+        "is_elss": "No",
+        "category_label": "EQUITY Sectoral"
+      }
+    },
+    {
+      "fund_name": "UTI Small Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-small-cap-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "4917.65 Cr",
+        "fund_manager": "Kamal Gada",
+        "scheme_type": "EQUITY",
+        "sub_category": "Small Cap",
+        "is_elss": "No",
+        "category_label": "EQUITY Small Cap"
+      }
+    },
+    {
+      "fund_name": "UTI Value Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-value-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "10057.81 Cr",
+        "fund_manager": "Vetri Subramaniam, Amit Premchandani",
+        "scheme_type": "EQUITY",
+        "sub_category": "Value Oriented",
+        "is_elss": "No",
+        "category_label": "EQUITY Value Oriented"
+      }
+    },
+    {
+      "fund_name": "UTI Mid Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-mid-cap-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "12101.13 Cr",
+        "fund_manager": "Lalit Nambiar",
+        "scheme_type": "EQUITY",
+        "sub_category": "Mid Cap",
+        "is_elss": "No",
+        "category_label": "EQUITY Mid Cap"
+      }
+    },
+    {
+      "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-nifty-next-50-index-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "5941.07 Cr",
+        "fund_manager": "Kaushik Basu, Sharwan Kumar Goyal",
+        "scheme_type": "EQUITY",
+        "sub_category": "Large Cap",
+        "is_elss": "No",
+        "category_label": "EQUITY Large Cap"
+      }
+    },
+    {
+      "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-banking-sector-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "1346.79 Cr",
+        "fund_manager": "Sudhir Agrawal",
+        "scheme_type": "EQUITY",
+        "sub_category": "Sectoral",
+        "is_elss": "No",
+        "category_label": "EQUITY Sectoral"
+      }
+    },
+    {
+      "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-nifty-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "25747.56 Cr",
+        "fund_manager": "Kaushik Basu",
+        "scheme_type": "EQUITY",
+        "sub_category": "Large Cap",
+        "is_elss": "No",
+        "category_label": "EQUITY Large Cap"
+      }
+    },
+    {
+      "fund_name": "UTI Flexi Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-equity-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "25757.27 Cr",
+        "fund_manager": "Ajay Tyagi",
+        "scheme_type": "EQUITY",
+        "sub_category": "Flexi Cap",
+        "is_elss": "No",
+        "category_label": "EQUITY Flexi Cap"
+      }
+    },
+    {
+      "fund_name": "UTI Money Market Fund Regular Plan Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-money-market-fund-regular-plan-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "20351.52 Cr",
+        "fund_manager": "Amit Sharma",
+        "scheme_type": "DEBT",
+        "sub_category": "Money Market",
+        "is_elss": "No",
+        "category_label": "DEBT Money Market"
+      }
+    },
+    {
+      "fund_name": "UTI Liquid Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-liquid-cash-plan-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "28884.74 Cr",
+        "fund_manager": "Amandeep Chopra, Amit Sharma",
+        "scheme_type": "LIQUID",
+        "sub_category": "Liquid",
+        "is_elss": "No",
+        "category_label": "LIQUID Liquid"
+      }
+    },
+    {
+      "fund_name": "UTI MNC Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-mnc-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "2904.35 Cr",
+        "fund_manager": "Swati Kulkarni",
+        "scheme_type": "EQUITY",
+        "sub_category": "Thematic",
+        "is_elss": "No",
+        "category_label": "EQUITY Thematic"
+      }
+    },
+    {
+      "fund_name": "UTI India Consumer Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-india-lifestyle-fund-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "734.67 Cr",
+        "fund_manager": "Lalit Nambiar, Vishal Chopda",
+        "scheme_type": "EQUITY",
+        "sub_category": "Thematic",
+        "is_elss": "No",
+        "category_label": "EQUITY Thematic"
+      }
+    },
+    {
+      "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-long-term-advantage-fund-series-iii-direct-growth",
+      "chunk_type": "fund_characteristics",
+      "data": {
+        "fund_size": "260.96 Cr",
+        "fund_manager": "Lalit Nambiar",
+        "scheme_type": "NORMAL",
+        "sub_category": "ELSS",
+        "is_elss": "Yes",
+        "category_label": "NORMAL ELSS"
+      }
+    }
+  ],
+  "risk_information": [
+    {
+      "fund_name": "UTI Large & Mid Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-large-mid-cap-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "5.65",
+          "beta": "0.99",
+          "sharpe": "1.11",
+          "sortino": "1.64"
+        },
+        "benchmark": "NIFTY Large Midcap 250 TRI"
+      }
+    },
+    {
+      "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-long-term-equity-fund-tax-saving-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "50",
+          "beta": "0.94",
+          "sharpe": "0.59",
+          "sortino": "0.91"
+        },
+        "benchmark": "NIFTY 500 TRI"
+      }
+    },
+    {
+      "fund_name": "Where can I get the transaction history?",
+      "source_url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history",
+      "chunk_type": "risk_information",
+      "data": {
+        "risk_metrics": {
+          "alpha": "50"
+        }
+      }
+    },
+    {
+      "fund_name": "UTI Gold ETF FoF Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-gold-etf-fof-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "High",
+        "risk_metrics": {
+          "alpha": "50",
+          "beta": "0.97",
+          "sharpe": "1.78",
+          "sortino": "3.97"
+        },
+        "benchmark": "Domestic Price of Gold"
+      }
+    },
+    {
+      "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-transportation-and-logistics-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "0.49",
+          "beta": "0.89",
+          "sharpe": "1.08",
+          "sortino": "1.42"
+        },
+        "benchmark": "Nifty Transportation & Logistics TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Healthcare Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "1.73",
+          "beta": "0.95",
+          "sharpe": "1.10",
+          "sortino": "1.79"
+        },
+        "benchmark": "BSE Healthcare TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Small Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-small-cap-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "0.18",
+          "beta": "0.86",
+          "sharpe": "0.81",
+          "sortino": "1.17"
+        },
+        "benchmark": "NIFTY Smallcap 250 TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Value Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-value-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "3.13",
+          "beta": "0.91",
+          "sharpe": "0.96",
+          "sortino": "1.55"
+        },
+        "benchmark": "NIFTY 500 TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Mid Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-mid-cap-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "50",
+          "beta": "0.96",
+          "sharpe": "0.73",
+          "sortino": "1.03"
+        },
+        "benchmark": "NIFTY Midcap 150 TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-nifty-next-50-index-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "0.87",
+          "beta": "1.32",
+          "sharpe": "0.69",
+          "sortino": "0.95"
+        },
+        "benchmark": "NIFTY Next 50 TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-banking-sector-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "5.35",
+          "beta": "0.86",
+          "sharpe": "0.85",
+          "sortino": "1.99"
+        },
+        "benchmark": "NIFTY Financial Services TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-nifty-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "50",
+          "beta": "0.95",
+          "sharpe": "0.62",
+          "sortino": "1.03"
+        },
+        "benchmark": "NIFTY 50 TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Flexi Cap Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-equity-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "50",
+          "beta": "0.83",
+          "sharpe": "0.46",
+          "sortino": "0.70"
+        },
+        "benchmark": "NIFTY 500 TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Money Market Fund Regular Plan Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-money-market-fund-regular-plan-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Low to Moderate",
+        "risk_metrics": {
+          "alpha": "2.51",
+          "beta": "0.83",
+          "sharpe": "3.44",
+          "sortino": "7.72"
+        },
+        "benchmark": "CRISIL Money Market A-I Index"
+      }
+    },
+    {
+      "fund_name": "UTI Liquid Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-liquid-cash-plan-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Low to Moderate",
+        "risk_metrics": {
+          "alpha": "1.23",
+          "beta": "0.36",
+          "sharpe": "3.58",
+          "sortino": "4.94"
+        },
+        "benchmark": "NIFTY Liquid Index A-I"
+      }
+    },
+    {
+      "fund_name": "UTI MNC Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-mnc-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "0.18",
+          "beta": "0.85",
+          "sharpe": "0.68",
+          "sortino": "0.87"
+        },
+        "benchmark": "NIFTY MNC TRI"
+      }
+    },
+    {
+      "fund_name": "UTI India Consumer Fund Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-india-lifestyle-fund-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "50",
+          "beta": "0.84",
+          "sharpe": "0.59",
+          "sortino": "0.78"
+        },
+        "benchmark": "NIFTY India Consumption TRI"
+      }
+    },
+    {
+      "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
+      "source_url": "https://groww.in/mutual-funds/uti-long-term-advantage-fund-series-iii-direct-growth",
+      "chunk_type": "risk_information",
+      "data": {
+        "riskometer": "Very High",
+        "risk_metrics": {
+          "alpha": "50",
+          "beta": "1.10",
+          "sharpe": "0.49",
+          "sortino": "0.53"
+        },
+        "benchmark": "BSE 100 TRI"
+      }
+    }
+  ],
+  "platform_information": [
+    {
+      "fund_name": "Where can I get the transaction history?",
+      "source_url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history",
+      "chunk_type": "platform_information",
+      "data": {
+        "statement_download_info": "Steps to request your Transaction/Order History: Go to your profile."
+      }
+    },
+    {
+      "fund_name": "Groww Platform",
+      "source_url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-transaction-history",
+      "chunk_type": "platform_information",
+      "data": {
+        "is_elss": "No",
+        "risk_metrics": {
+          "alpha": "50"
+        },
+        "statement_download_info": "Steps to request your Transaction/Order History: Go to your profile."
+      }
+    }
+  ]
+}

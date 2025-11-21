@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTI Mutual Funds FAQ Assistant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .input-area {
+            display: flex;
+            margin: 20px 0;
+        }
+        #question {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        #ask-btn {
+            padding: 12px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-left: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #ask-btn:hover {
+            background-color: #2980b9;
+        }
+        #ask-btn:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
+        .chat-history {
+            margin-top: 30px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        .message {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .user-message {
+            background-color: #3498db;
+            color: white;
+            text-align: right;
+        }
+        .bot-message {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+        }
+        .sources {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px dashed #bdc3c7;
+        }
+        .source {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        .source a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .source a:hover {
+            text-decoration: underline;
+        }
+        .loading {
+            text-align: center;
+            color: #7f8c8d;
+        }
+        .error {
+            color: #e74c3c;
+            background-color: #fadbd8;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>UTI Mutual Funds FAQ Assistant</h1>
+        <p style="text-align: center; color: #7f8c8d;">
+            Ask questions about UTI mutual funds and get instant answers
+        </p>
+        
+        <div class="input-area">
+            <input type="text" id="question" placeholder="Ask a question about UTI mutual funds..." autocomplete="off">
+            <button id="ask-btn">Ask</button>
+        </div>
+        
+        <div id="loading" class="loading" style="display: none;">
+            Thinking...
+        </div>
+        
+        <div id="error" class="error" style="display: none;"></div>
+        
+        <div class="chat-history" id="chat-history"></div>
+    </div>
+
+    <script>
+        const questionInput = document.getElementById('question');
+        const askBtn = document.getElementById('ask-btn');
+        const chatHistory = document.getElementById('chat-history');
+        const loadingElement = document.getElementById('loading');
+        const errorElement = document.getElementById('error');
+
+        // Focus on input when page loads
+        questionInput.focus();
+
+        // Handle Enter key press
+        questionInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                askQuestion();
+            }
+        });
+
+        // Handle Ask button click
+        askBtn.addEventListener('click', askQuestion);
+
+        async function askQuestion() {
+            const question = questionInput.value.trim();
+            
+            if (!question) {
+                return;
+            }
+            
+            // Clear input
+            questionInput.value = '';
+            
+            // Add user message to chat
+            addMessageToChat(question, 'user');
+            
+            // Show loading
+            loadingElement.style.display = 'block';
+            errorElement.style.display = 'none';
+            askBtn.disabled = true;
+            
+            try {
+                // Send request to backend
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: question })
+                });
+                
+                const data = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to get response');
+                }
+                
+                // Add bot response to chat
+                addMessageToChat(data.response, 'bot', data.sources);
+                
+            } catch (error) {
+                console.error('Error:', error);
+                errorElement.textContent = 'Error: ' + error.message;
+                errorElement.style.display = 'block';
+            } finally {
+                // Hide loading
+                loadingElement.style.display = 'none';
+                askBtn.disabled = false;
+                questionInput.focus();
+            }
+        }
+
+        function addMessageToChat(message, sender, sources = []) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            
+            const messageContent = document.createElement('div');
+            messageContent.textContent = message;
+            messageDiv.appendChild(messageContent);
+            
+            // Add sources if available
+            if (sources && sources.length > 0) {
+                const sourcesDiv = document.createElement('div');
+                sourcesDiv.className = 'sources';
+                sourcesDiv.innerHTML = '<strong>Sources:</strong>';
+                
+                sources.forEach(source => {
+                    const sourceDiv = document.createElement('div');
+                    sourceDiv.className = 'source';
+                    sourceDiv.innerHTML = `
+                        ${source.fund_name} (${source.type.replace('_', ' ')})<br>
+                        <a href="${source.url}" target="_blank">View source</a>
+                    `;
+                    sourcesDiv.appendChild(sourceDiv);
+                });
+                
+                messageDiv.appendChild(sourcesDiv);
+            }
+            
+            chatHistory.appendChild(messageDiv);
+            
+            // Scroll to bottom
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        }
+
+        // Example questions
+        const exampleQuestions = [
+            "What is the expense ratio of UTI ELSS Tax Saver Fund?",
+            "What is the risk level of UTI Small Cap Fund?",
+            "How can I download my transaction history from Groww?",
+            "What is the benchmark for UTI Nifty 50 Index Fund?"
+        ];
+
+        // Add example questions as initial messages
+        window.addEventListener('DOMContentLoaded', function() {
+            exampleQuestions.forEach(question => {
+                addMessageToChat(`Try asking: "${question}"`, 'bot');
+            });
+        });
+    </script>
+</body>
+</html>
