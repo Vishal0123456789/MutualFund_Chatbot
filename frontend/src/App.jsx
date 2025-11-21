@@ -6,7 +6,7 @@ import { ChatWindow } from './components/ChatWindow';
 import { InputBar } from './components/InputBar';
 
 // Get API URL from environment variable or default to production URL
-const API_URL = import.meta.env.VITE_API_URL || 'https://mutual-fund-chatbot.onrender.com';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mutualfundchatbot-production.up.railway.app';
 
 export default function App() {
   const [messages, setMessages] = useState([
