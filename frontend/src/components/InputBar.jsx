@@ -18,25 +18,75 @@ export const InputBar = ({ onSend, disabled = false }) => {
   };
 
   return (
-    <div className="fixed bottom-0 left-1/3 right-0 bg-white border-t border-gray-200 p-4 shadow-lg">
-      <div className="flex gap-2 max-w-full">
+    <div style={{
+      background: '#FFFFFF',
+      padding: '16px 24px',
+      borderTop: '1px solid #E5E7EB',
+      display: 'flex',
+      gap: '12px',
+      alignItems: 'flex-end'
+    }}>
+      <div style={{
+        flex: 1,
+        display: 'flex',
+        gap: '8px',
+        alignItems: 'center',
+        background: '#F6F8FA',
+        border: '1px solid #E5E7EB',
+        borderRadius: '24px',
+        padding: '0 16px',
+        transition: 'all 0.2s ease'
+      }}
+      className="input-wrapper"
+      >
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder="Type your query here..."
+          placeholder="Ask about NAV, Returns, or Managers..."
           disabled={disabled}
-          className="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent-blue disabled:bg-gray-100"
+          style={{
+            flex: 1,
+            background: 'transparent',
+            border: 'none',
+            outline: 'none',
+            fontSize: '14px',
+            padding: '12px 0',
+            fontFamily: 'Inter, Roboto, sans-serif',
+            color: '#1F2937'
+          }}
         />
-        <button
-          onClick={handleSend}
-          disabled={disabled || !input.trim()}
-          className="bg-accent-blue text-white px-6 py-3 rounded-lg hover:bg-blue-600 disabled:bg-gray-400 disabled:cursor-not-allowed transition font-semibold"
-        >
-          Send
-        </button>
       </div>
+      <button
+        onClick={handleSend}
+        disabled={disabled || !input.trim()}
+        style={{
+          minWidth: '80px',
+          height: '40px',
+          background: disabled || !input.trim() ? '#9CA3AF' : 'linear-gradient(135deg, #2B6CB0 0%, #12346A 100%)',
+          border: 'none',
+          borderRadius: '20px',
+          color: '#FFFFFF',
+          fontSize: '14px',
+          fontWeight: '600',
+          cursor: disabled || !input.trim() ? 'not-allowed' : 'pointer',
+          transition: 'all 0.2s ease',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: '6px',
+          padding: '0 16px',
+          flexShrink: 0
+        }}
+        className="send-btn"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 2L11 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+        Send
+      </button>
     </div>
   );
 };

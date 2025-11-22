@@ -1,0 +1,981 @@
+[
+  {
+    "fund_name": "UTI Large & Mid Cap Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-large-mid-cap-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "5.69%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "3.63%"
+        },
+        {
+          "stock": "Infosys Ltd.",
+          "percentage": "3.42%"
+        },
+        {
+          "stock": "Reliance Industries Ltd.",
+          "percentage": "3.14%"
+        },
+        {
+          "stock": "ITC Ltd.",
+          "percentage": "2.83%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-long-term-equity-fund-tax-saving-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "9.54%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "6.41%"
+        },
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "4.76%"
+        },
+        {
+          "stock": "Infosys Ltd.",
+          "percentage": "4.75%"
+        },
+        {
+          "stock": "Axis Bank Ltd.",
+          "percentage": "3.95%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Small Cap Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-small-cap-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Multi Commodity Exchange Of India Ltd.",
+          "percentage": "2.98%"
+        },
+        {
+          "stock": "Karur Vysya Bank Ltd.",
+          "percentage": "2.46%"
+        },
+        {
+          "stock": "Aster DM Healthcare Ltd.",
+          "percentage": "2.24%"
+        },
+        {
+          "stock": "City Union Bank Ltd.",
+          "percentage": "2.14%"
+        },
+        {
+          "stock": "TD Power Systems Ltd.",
+          "percentage": "2.05%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Mid Cap Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-mid-cap-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Polycab India Ltd.",
+          "percentage": "2.57%"
+        },
+        {
+          "stock": "The Phoenix Mills Ltd.",
+          "percentage": "2.36%"
+        },
+        {
+          "stock": "Persistent Systems Ltd.",
+          "percentage": "2.22%"
+        },
+        {
+          "stock": "Indian Bank",
+          "percentage": "2.13%"
+        },
+        {
+          "stock": "Max Financial Services Ltd.",
+          "percentage": "2.08%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Flexi Cap Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-equity-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Bajaj Finance Ltd.",
+          "percentage": "6.39%"
+        },
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "6.12%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "5.94%"
+        },
+        {
+          "stock": "Eternal Ltd.",
+          "percentage": "5.56%"
+        },
+        {
+          "stock": "Info Edge (India) Ltd.",
+          "percentage": "3.76%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Value Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-value-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "9.60%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "5.68%"
+        },
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "4.49%"
+        },
+        {
+          "stock": "Infosys Ltd.",
+          "percentage": "4.27%"
+        },
+        {
+          "stock": "Axis Bank Ltd.",
+          "percentage": "3.92%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Healthcare Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Sun Pharmaceutical Industries Ltd.",
+          "percentage": "9.77%"
+        },
+        {
+          "stock": "Ajanta Pharma Ltd.",
+          "percentage": "6.25%"
+        },
+        {
+          "stock": "Lupin Ltd.",
+          "percentage": "5.58%"
+        },
+        {
+          "stock": "Glenmark Pharmaceuticals Ltd.",
+          "percentage": "4.12%"
+        },
+        {
+          "stock": "Cipla Ltd.",
+          "percentage": "3.74%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-transportation-and-logistics-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Mahindra & Mahindra Ltd.",
+          "percentage": "13.96%"
+        },
+        {
+          "stock": "Maruti Suzuki India Ltd.",
+          "percentage": "10.56%"
+        },
+        {
+          "stock": "Eicher Motors Ltd.",
+          "percentage": "9.69%"
+        },
+        {
+          "stock": "Eternal Ltd.",
+          "percentage": "6.73%"
+        },
+        {
+          "stock": "Interglobe Aviation Ltd.",
+          "percentage": "5.02%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-banking-sector-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "18.50%"
+        },
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "15.94%"
+        },
+        {
+          "stock": "Kotak Mahindra Bank Ltd.",
+          "percentage": "8.58%"
+        },
+        {
+          "stock": "Axis Bank Ltd.",
+          "percentage": "8.47%"
+        },
+        {
+          "stock": "Bajaj Finance Ltd.",
+          "percentage": "6.35%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI MNC Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-mnc-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Maruti Suzuki India Ltd.",
+          "percentage": "9.47%"
+        },
+        {
+          "stock": "Procter & Gamble Health Ltd.",
+          "percentage": "5.11%"
+        },
+        {
+          "stock": "Nestle India Ltd.",
+          "percentage": "4.90%"
+        },
+        {
+          "stock": "Britannia Industries Ltd.",
+          "percentage": "4.52%"
+        },
+        {
+          "stock": "Vedanta Ltd.",
+          "percentage": "4.39%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI India Consumer Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-india-lifestyle-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "8.18%"
+        },
+        {
+          "stock": "Maruti Suzuki India Ltd.",
+          "percentage": "7.05%"
+        },
+        {
+          "stock": "Mahindra & Mahindra Ltd.",
+          "percentage": "5.41%"
+        },
+        {
+          "stock": "Titan Company Ltd.",
+          "percentage": "4.59%"
+        },
+        {
+          "stock": "ITC Ltd.",
+          "percentage": "4.58%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-nifty-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "12.77%"
+        },
+        {
+          "stock": "Reliance Industries Ltd.",
+          "percentage": "8.52%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "8.13%"
+        },
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "4.74%"
+        },
+        {
+          "stock": "Infosys Ltd.",
+          "percentage": "4.52%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-nifty-next-50-index-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Hindustan Aeronautics Ltd.",
+          "percentage": "3.81%"
+        },
+        {
+          "stock": "Divi's Laboratories Ltd.",
+          "percentage": "3.67%"
+        },
+        {
+          "stock": "Vedanta Ltd.",
+          "percentage": "3.59%"
+        },
+        {
+          "stock": "TVS Motor Company Ltd.",
+          "percentage": "3.53%"
+        },
+        {
+          "stock": "Cholamandalam Investment and Finance Company Ltd.",
+          "percentage": "3.06%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Infrastructure Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-infrastructure-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "13.35%"
+        },
+        {
+          "stock": "Larsen & Toubro Ltd.",
+          "percentage": "10.33%"
+        },
+        {
+          "stock": "Reliance Industries Ltd.",
+          "percentage": "6.97%"
+        },
+        {
+          "stock": "NTPC Ltd.",
+          "percentage": "6.08%"
+        },
+        {
+          "stock": "Ultratech Cement Ltd.",
+          "percentage": "4.73%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Innovation Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-innovation-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Eternal Ltd.",
+          "percentage": "8.71%"
+        },
+        {
+          "stock": "Info Edge (India) Ltd.",
+          "percentage": "8.54%"
+        },
+        {
+          "stock": "PB Fintech Ltd.",
+          "percentage": "7.15%"
+        },
+        {
+          "stock": "Affle 3I Ltd.",
+          "percentage": "6.07%"
+        },
+        {
+          "stock": "FSN E-Commerce Ventures Ltd.",
+          "percentage": "5.44%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Multi Cap Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-multi-cap-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Axis Bank Ltd.",
+          "percentage": "3.42%"
+        },
+        {
+          "stock": "Kotak Mahindra Bank Ltd.",
+          "percentage": "3.37%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "3.22%"
+        },
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "2.76%"
+        },
+        {
+          "stock": "Bajaj Finance Ltd.",
+          "percentage": "2.60%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-long-term-advantage-fund-series-v-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "7.05%"
+        },
+        {
+          "stock": "State Bank of India",
+          "percentage": "6.37%"
+        },
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "6.22%"
+        },
+        {
+          "stock": "Axis Bank Ltd.",
+          "percentage": "4.37%"
+        },
+        {
+          "stock": "Praj Industries Ltd.",
+          "percentage": "4.32%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-long-term-advantage-fund-series-iii-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "7.06%"
+        },
+        {
+          "stock": "Tech Mahindra Ltd.",
+          "percentage": "6.33%"
+        },
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "6.18%"
+        },
+        {
+          "stock": "State Bank of India",
+          "percentage": "5.02%"
+        },
+        {
+          "stock": "Praj Industries Ltd.",
+          "percentage": "4.48%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Gold ETF FoF Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-gold-etf-fof-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "UTI Gold Exchange Traded Fund",
+          "percentage": "100.03%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Liquid Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-liquid-cash-plan-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Reserve Bank of India",
+          "percentage": "3.91%"
+        },
+        {
+          "stock": "Reserve Bank of India",
+          "percentage": "3.05%"
+        },
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "2.65%"
+        },
+        {
+          "stock": "Reserve Bank of India",
+          "percentage": "2.57%"
+        },
+        {
+          "stock": "ICICI Securities Ltd.",
+          "percentage": "2.15%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Money Market Fund Regular Plan Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-money-market-fund-regular-plan-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Indian Bank",
+          "percentage": "2.42%"
+        },
+        {
+          "stock": "Reserve Bank of India",
+          "percentage": "2.41%"
+        },
+        {
+          "stock": "Reserve Bank of India",
+          "percentage": "2.41%"
+        },
+        {
+          "stock": "National Bank For Agriculture & Rural Development",
+          "percentage": "2.17%"
+        },
+        {
+          "stock": "Axis Bank Ltd.",
+          "percentage": "2.17%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Healthcare Fund Direct IDCW",
+    "source_url": "https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-dividend",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Sun Pharmaceutical Industries Ltd.",
+          "percentage": "9.77%"
+        },
+        {
+          "stock": "Ajanta Pharma Ltd.",
+          "percentage": "6.25%"
+        },
+        {
+          "stock": "Lupin Ltd.",
+          "percentage": "5.58%"
+        },
+        {
+          "stock": "Glenmark Pharmaceuticals Ltd.",
+          "percentage": "4.12%"
+        },
+        {
+          "stock": "Cipla Ltd.",
+          "percentage": "3.74%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-i-come-plus-arbitrage-active-fof-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "UTI Corporate Bond Fund Direct - Growth",
+          "percentage": "59.65%"
+        },
+        {
+          "stock": "UTI Arbitrage Fund Direct-Growth",
+          "percentage": "38.26%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI India Consumer Fund Direct IDCW",
+    "source_url": "https://groww.in/mutual-funds/uti-india-lifestyle-fund-direct-dividend",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "8.18%"
+        },
+        {
+          "stock": "Maruti Suzuki India Ltd.",
+          "percentage": "7.05%"
+        },
+        {
+          "stock": "Mahindra & Mahindra Ltd.",
+          "percentage": "5.41%"
+        },
+        {
+          "stock": "Titan Company Ltd.",
+          "percentage": "4.59%"
+        },
+        {
+          "stock": "ITC Ltd.",
+          "percentage": "4.58%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
+    "source_url": "https://groww.in/mutual-funds/uti-top-100-fund-direct-dividend",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "5.69%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "3.63%"
+        },
+        {
+          "stock": "Infosys Ltd.",
+          "percentage": "3.42%"
+        },
+        {
+          "stock": "Reliance Industries Ltd.",
+          "percentage": "3.14%"
+        },
+        {
+          "stock": "ITC Ltd.",
+          "percentage": "2.83%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Large Cap Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-unit-scheme-1986-mastershare-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "9.14%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "7.00%"
+        },
+        {
+          "stock": "Infosys Ltd.",
+          "percentage": "5.61%"
+        },
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "4.14%"
+        },
+        {
+          "stock": "Kotak Mahindra Bank Ltd.",
+          "percentage": "3.94%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Large Cap Fund Direct IDCW",
+    "source_url": "https://groww.in/mutual-funds/uti-unit-scheme-1986-mastershare-direct-dividend",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "9.14%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "7.00%"
+        },
+        {
+          "stock": "Infosys Ltd.",
+          "percentage": "5.61%"
+        },
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "4.14%"
+        },
+        {
+          "stock": "Kotak Mahindra Bank Ltd.",
+          "percentage": "3.94%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
+    "source_url": "https://groww.in/mutual-funds/uti-liquid-cash-plan-direct-monthly-dividend",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Reserve Bank of India",
+          "percentage": "3.91%"
+        },
+        {
+          "stock": "Reserve Bank of India",
+          "percentage": "3.05%"
+        },
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "2.65%"
+        },
+        {
+          "stock": "Reserve Bank of India",
+          "percentage": "2.57%"
+        },
+        {
+          "stock": "ICICI Securities Ltd.",
+          "percentage": "2.15%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
+    "source_url": "https://groww.in/mutual-funds/uti-long-duration-fund-direct-idcw-quarterly",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "GOI",
+          "percentage": "78.88%"
+        },
+        {
+          "stock": "GOI",
+          "percentage": "10.03%"
+        },
+        {
+          "stock": "GOI",
+          "percentage": "1.05%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Monthly Income Scheme Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-monthly-i-come-scheme-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Afcons Infrastructure Ltd.",
+          "percentage": "9.76%"
+        },
+        {
+          "stock": "Bank Of Baroda",
+          "percentage": "9.73%"
+        },
+        {
+          "stock": "Vodafone Idea Ltd.",
+          "percentage": "9.62%"
+        },
+        {
+          "stock": "Jamnagar Utilities and Power Pvt. Ltd.",
+          "percentage": "8.07%"
+        },
+        {
+          "stock": "GOI",
+          "percentage": "7.13%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-wealth-builder-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "UTI Gold Exchange Traded Fund",
+          "percentage": "12.10%"
+        },
+        {
+          "stock": "ITC Ltd.",
+          "percentage": "2.75%"
+        },
+        {
+          "stock": "Infosys Ltd.",
+          "percentage": "2.36%"
+        },
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "2.22%"
+        },
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "2.12%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-multi-cap-fund-%28ex%29-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "ITC Ltd.",
+          "percentage": "8.66%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "8.60%"
+        },
+        {
+          "stock": "Aditya Birla Fashion and Retail Ltd.",
+          "percentage": "8.52%"
+        },
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "8.16%"
+        },
+        {
+          "stock": "Infosys Ltd.",
+          "percentage": "4.94%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-nifty-500-value-50-index-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Hindalco Industries Ltd.",
+          "percentage": "5.40%"
+        },
+        {
+          "stock": "Indian Oil Corporation Ltd.",
+          "percentage": "5.39%"
+        },
+        {
+          "stock": "State Bank of India",
+          "percentage": "5.24%"
+        },
+        {
+          "stock": "Oil And Natural Gas Corporation Ltd.",
+          "percentage": "5.18%"
+        },
+        {
+          "stock": "Vedanta Ltd.",
+          "percentage": "5.18%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-nifty-alpha-low-volatility-30-index-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Apollo Hospitals Enterprise Ltd.",
+          "percentage": "4.41%"
+        },
+        {
+          "stock": "HDFC Bank Ltd.",
+          "percentage": "4.33%"
+        },
+        {
+          "stock": "ITC Ltd.",
+          "percentage": "4.22%"
+        },
+        {
+          "stock": "ICICI Bank Ltd.",
+          "percentage": "4.14%"
+        },
+        {
+          "stock": "Bharti Airtel Ltd.",
+          "percentage": "4.11%"
+        }
+      ]
+    }
+  },
+  {
+    "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
+    "source_url": "https://groww.in/mutual-funds/uti-nifty-india-manufacturing-index-fund-direct-growth",
+    "chunk_type": "holdings_information",
+    "data": {
+      "top_holdings": [
+        {
+          "stock": "Reliance Industries Ltd.",
+          "percentage": "5.30%"
+        },
+        {
+          "stock": "Maruti Suzuki India Ltd.",
+          "percentage": "4.87%"
+        },
+        {
+          "stock": "Mahindra & Mahindra Ltd.",
+          "percentage": "4.83%"
+        },
+        {
+          "stock": "Sun Pharmaceutical Industries Ltd.",
+          "percentage": "4.66%"
+        },
+        {
+          "stock": "Tata Steel Ltd.",
+          "percentage": "3.95%"
+        }
+      ]
+    }
+  }
+]

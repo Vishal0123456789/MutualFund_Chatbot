@@ -99,58 +99,162 @@ class WebGeminiFAQAssistant:
         
         return results
     
-    def format_context_for_gemini(self, relevant_chunks: List[Dict]) -> str:
-        """Format context for Gemini prompt with better structure for NAV"""
+    def format_context_for_gemini(self, relevant_chunks: List[Dict], chunk_type_hint: str = None) -> str:
+        """Format context for Gemini prompt with better structure for different data types"""
         if not relevant_chunks:
             return "No relevant information found."
         
-        # Check if this is NAV data (expense_information)
-        is_nav_data = any(c['chunk'].get('chunk_type') == 'expense_information' for c in relevant_chunks)
+        # Detect primary chunk type from relevant chunks
+        chunk_types = [c['chunk'].get('chunk_type') for c in relevant_chunks]
+        primary_type = chunk_types[0] if chunk_types else None
         
-        if is_nav_data:
-            # Special formatting for NAV data
+        # Handle expense_information (expense ratio, stamp duty ONLY)
+        if primary_type == 'expense_information':
             context_parts = []
-            for result in relevant_chunks:
+            # Only format the FIRST chunk to avoid showing multiple funds
+            for result in relevant_chunks[:1]:  # LIMIT TO 1 FUND
                 chunk = result['chunk']
-                if chunk['chunk_type'] == 'expense_information':
-                    fund_name = chunk['fund_name']
-                    data = chunk['data']
-                    
-                    context_parts.append(f"{fund_name}")
-                    context_parts.append("")
-                    context_parts.append("Key Investment Details")
-                    context_parts.append("")
-                    
-                    if 'nav' in data:
-                        nav_date = data.get('nav_date', 'N/A')
-                        context_parts.append(f"NAV: ₹{data['nav']} (as of {nav_date})")
-                    
-                    if 'min_sip' in data:
-                        context_parts.append(f"Minimum SIP: ₹{data['min_sip']}")
-                    
-                    if 'exit_load' in data:
-                        exit_load = data['exit_load']
-                        if exit_load.lower() == 'nil':
-                            context_parts.append("Exit Load: None")
-                        else:
-                            context_parts.append(f"Exit Load: {exit_load}")
-                    
-                    context_parts.append("")
-                    context_parts.append("Cost & Charges")
-                    context_parts.append("")
-                    
-                    if 'expense_ratio' in data:
-                        context_parts.append(f"Expense Ratio: {data['expense_ratio']}")
-                    
-                    if 'stamp_duty' in data:
-                        context_parts.append(f"Stamp Duty: {data['stamp_duty']}")
-                    
-                    context_parts.append("")
-                    context_parts.append(f"Source: {chunk['source_url']}")
+                fund_name = chunk['fund_name']
+                data = chunk['data']
+                
+                context_parts.append(f"{fund_name}")
+                
+                if 'expense_ratio' in data:
+                    context_parts.append(f"Expense Ratio: {data['expense_ratio']}")
+                
+                if 'stamp_duty' in data:
+                    context_parts.append(f"Stamp Duty: {data['stamp_duty']}")
+                
+                context_parts.append(f"Source: {chunk['source_url']}")
             
             return "\n".join(context_parts)
         
-        # Default formatting for other data types
+        # Handle nav_sip_information (NAV, SIP, Exit Load ONLY)
+        elif primary_type == 'nav_sip_information':
+            context_parts = []
+            # Only format the FIRST chunk to avoid showing multiple funds
+            for result in relevant_chunks[:1]:  # LIMIT TO 1 FUND
+                chunk = result['chunk']
+                fund_name = chunk['fund_name']
+                data = chunk['data']
+                
+                context_parts.append(f"{fund_name}")
+                
+                if 'nav' in data:
+                    nav_date = data.get('nav_date', 'N/A')
+                    context_parts.append(f"NAV: ₹{data['nav']} (as of {nav_date})")
+                
+                if 'min_sip' in data:
+                    context_parts.append(f"Minimum SIP: ₹{data['min_sip']}")
+                
+                if 'exit_load' in data:
+                    exit_load = data['exit_load']
+                    if exit_load.lower() == 'nil':
+                        context_parts.append("Exit Load: None")
+                    else:
+                        context_parts.append(f"Exit Load: {exit_load}")
+                
+                context_parts.append(f"Source: {chunk['source_url']}")
+            
+            return "\n".join(context_parts)
+        
+        # Handle performance_metrics (P/E, P/B ratios)
+        elif primary_type == 'performance_metrics':
+            context_parts = []
+            # Only format the FIRST chunk to avoid showing multiple funds
+            for result in relevant_chunks[:1]:  # LIMIT TO 1 FUND
+                chunk = result['chunk']
+                fund_name = chunk['fund_name']
+                data = chunk['data']
+                source = chunk['source_url']
+                
+                # Create clean format for Gemini
+                context_parts.append(f"{fund_name}")
+                
+                if 'pe_ratio' in data:
+                    context_parts.append(f"P/E Ratio: {data['pe_ratio']}")
+                if 'pb_ratio' in data:
+                    context_parts.append(f"P/B Ratio: {data['pb_ratio']}")
+                
+                context_parts.append(f"Source: {source}")
+            
+            return "\n".join(context_parts)
+        
+        # Handle risk_information
+        elif primary_type == 'risk_information':
+            context_parts = []
+            # Only format the FIRST chunk to avoid showing multiple funds
+            for result in relevant_chunks[:1]:  # LIMIT TO 1 FUND
+                chunk = result['chunk']
+                fund_name = chunk['fund_name']
+                data = chunk['data']
+                
+                context_parts.append(f"{fund_name}")
+                context_parts.append("Risk Information")
+                
+                if 'riskometer' in data:
+                    context_parts.append(f"Riskometer: {data['riskometer']}")
+                
+                if 'risk_metrics' in data:
+                    context_parts.append("\nRisk Metrics:")
+                    metrics = data['risk_metrics']
+                    if isinstance(metrics, dict):
+                        for metric_key, metric_value in metrics.items():
+                            context_parts.append(f"  {metric_key.upper()}: {metric_value}")
+                
+                if 'benchmark' in data:
+                    context_parts.append(f"\nBenchmark: {data['benchmark']}")
+                
+                context_parts.append(f"Source: {chunk['source_url']}")
+            
+            return "\n".join(context_parts)
+        
+        # Handle fund_characteristics
+        elif primary_type == 'fund_characteristics':
+            context_parts = []
+            # Only format the FIRST chunk to avoid showing multiple funds
+            for result in relevant_chunks[:1]:  # LIMIT TO 1 FUND
+                chunk = result['chunk']
+                fund_name = chunk['fund_name']
+                data = chunk['data']
+                
+                context_parts.append(f"{fund_name}")
+                
+                if 'fund_size' in data:
+                    context_parts.append(f"Fund Size: {data['fund_size']}")
+                if 'fund_manager' in data:
+                    context_parts.append(f"Fund Manager: {data['fund_manager']}")
+                if 'scheme_type' in data:
+                    context_parts.append(f"Scheme Type: {data['scheme_type']}")
+                if 'sub_category' in data:
+                    context_parts.append(f"Category: {data['sub_category']}")
+                if 'lock_in' in data:
+                    context_parts.append(f"Lock-in Period: {data['lock_in']}")
+                
+                context_parts.append(f"Source: {chunk['source_url']}")
+            
+            return "\n".join(context_parts)
+        
+        # Handle holdings_information
+        elif primary_type == 'holdings_information':
+            context_parts = []
+            for result in relevant_chunks[:1]:  # LIMIT TO 1 FUND
+                chunk = result['chunk']
+                fund_name = chunk['fund_name']
+                data = chunk['data']
+                
+                context_parts.append(f"{fund_name}")
+                context_parts.append("Top Holdings")
+                
+                if 'top_holdings' in data:
+                    for holding in data['top_holdings']:
+                        context_parts.append(f"{holding['stock']} {holding['percentage']}")
+                
+                context_parts.append(f"Source: {chunk['source_url']}")
+            
+            return "\n".join(context_parts)
+        
+        # Default formatting for mixed data types
         context_parts = []
         context_parts.append("Relevant information about UTI mutual funds:")
         
@@ -181,11 +285,14 @@ class WebGeminiFAQAssistant:
             return self.generate_basic_response(question, context)
         
         try:
-            # Detect if this is a NAV question for special handling
+            # Detect question type
             q_lower = question.lower()
             is_nav_question = any(k in q_lower for k in ['nav', 'net asset value', 'current price'])
+            is_pe_question = any(k in q_lower for k in ['p/e', 'pe ratio', 'p/b', 'pb ratio', 'price to earnings', 'price to book'])
+            is_risk_question = any(k in q_lower for k in ['risk', 'riskometer', 'alpha', 'beta', 'sharpe', 'sortino'])
+            is_characteristics_question = any(k in q_lower for k in ['fund size', 'fund manager', 'category', 'scheme type'])
             
-            # Create prompt for Gemini with NAV priority
+            # Create dynamic prompt based on question type
             if is_nav_question:
                 prompt = f"""Format the NAV (Net Asset Value) information in a clear, well-structured format.
 
@@ -194,31 +301,57 @@ Context:
 
 Question: {question}
 
-Please format the response like this example:
+IMPORTANT INSTRUCTIONS:
+- ONLY show information for the fund specifically mentioned in the question
+- If multiple funds appear in the context but only ONE is asked about, show ONLY that one
+- Do NOT list other funds unless explicitly requested
+- Format exactly like this example:
 
-[Fund Name] — [Plan Type]
-
-Category: [Fund Category]
-
+UTI ELSS Tax Saver Fund — Direct Growth
+Category: ELSS (Equity Linked Savings Scheme)
 Key Investment Details
-
-NAV: ₹[amount] (as of [date])
-Minimum SIP: ₹[amount]
-Exit Load: [value or None]
-
+NAV: ₹295.45 (as of 21 Nov 2025)
+Minimum SIP: ₹500
+Exit Load: None
 Cost & Charges
+Expense Ratio: 0.91%
+Stamp Duty: 0.005%
+Source: Groww
 
-Expense Ratio: [percentage]
-Stamp Duty: [percentage]
+Only format the data provided for the REQUESTED fund. Don't add extra funds.
+Do NOT add blank lines between items.
 
-Source: [source]
+Response:"""
+            elif is_pe_question or is_risk_question or is_characteristics_question:
+                prompt = f"""You are a helpful assistant answering questions about UTI mutual funds.
+Use the following context to answer the question accurately.
 
-Make sure to include all available information from the context.
+Context:
+{context}
+
+Question: {question}
+
+IMPORTANT: Format your response EXACTLY like this:
+
+Fund Name — Plan Type
+P/E Ratio: [value]
+P/B Ratio: [value]
+Source: [URL]
+
+---
+
+[Repeat for each fund]
+
+Only show information that is requested in the question.
+If asking about P/E, only show P/E and P/B ratios in a clean format.
+Do NOT show raw context or metadata.
+Do NOT repeat fund names multiple times.
+Do NOT include "Performance Metrics" or "Source:" labels before the data.
+Do NOT add blank lines between items.
 
 Response:"""
             else:
-                prompt = f"""
-You are a helpful assistant answering questions about UTI mutual funds. 
+                prompt = f"""You are a helpful assistant answering questions about UTI mutual funds. 
 Use the following context to answer the question accurately and concisely.
 
 Context:
@@ -231,8 +364,7 @@ If the context doesn't contain relevant information, politely say so.
 Format your response in a clear, easy-to-read manner.
 This is for factual information only. Do not provide investment advice.
 
-Response:
-"""
+Response:"""
 
             # Using REST API for Gemini calls
             url = f"https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key={self.api_key}"
@@ -289,20 +421,29 @@ Response:
             }
         
         # Guardrail: block investment advice and ranking queries
+        # BUT allow factual queries about holdings, stocks, and portfolio composition
+        holdings_keywords = ['holding', 'holdings', 'stock', 'stocks', 'portfolio', 'composition', 'allocation']
+        is_holdings_query = any(k in q for k in holdings_keywords)
+        
         advice_keywords = [
             "invest", "buy", "sell", "hold", "recommend", "recommendation",
             "suggest", "allocate", "allocation", "portfolio", "best fund",
             "should i", "advice", "top", "best", "rank", "ranking",
             "outperform", "better than", "worse than", "compare", "comparison"
         ]
-        if any(k in q for k in advice_keywords):
+        
+        # Only block if it's advice-seeking AND not a holdings query
+        if not is_holdings_query and any(k in q for k in advice_keywords):
             response_text = (
                 "This assistant is designed to provide factual information about UTI Mutual Funds only. "
-                "It does not provide investment advice."
+                "It does not provide investment advice.\n\n"
+                "Visit Groww to know more."
             )
             return {
                 "response": response_text,
-                "sources": []
+                "sources": [{"url": "https://groww.in/mutual-funds/amc/uti-mutual-funds", 
+                             "fund_name": "Groww Platform",
+                             "type": "reference"}]
             }
         
         # Detect if user specifies a number of results
@@ -312,22 +453,114 @@ Response:
         top_k = min(top_k, 15)  # Cap at 15 to avoid overwhelming responses
         
         # Determine if question is about NAV - more robust detection
-        nav_keywords = ['nav', 'net asset value', 'current nav', 'today nav', 'current price']
+        nav_keywords = ['nav', 'net asset value', 'current nav', 'today nav', 'current price', 'sip', 'exit load', 'minimum sip', 'min sip']
         asking_about_nav = any(k in q for k in nav_keywords)
+        
+        # Determine if question is about P/E, P/B ratios (performance metrics)
+        pe_keywords = ['p/e', 'pe ratio', 'pe ', 'p/b', 'pb ratio', 'pb ', 'price to earnings', 'price to book']
+        asking_about_performance = any(k in q for k in pe_keywords)
+        
+        # Determine if question is about expense ratio, costs
+        expense_keywords = ['expense ratio', 'expense', 'cost', 'fee', 'charge', 'stamp duty']
+        asking_about_expense = any(k in q for k in expense_keywords)
+        
+        # Determine if question is about fund manager, characteristics
+        characteristics_keywords = ['fund manager', 'manager', 'fund size', 'size', 'category', 'scheme type', 'scheme', 'lock-in', 'lock in', 'lockin']
+        asking_about_characteristics = any(k in q for k in characteristics_keywords)
+        
+        # Determine if question is about risk
+        risk_keywords = ['risk', 'riskometer', 'alpha', 'beta', 'sharpe', 'sortino', 'benchmark']
+        asking_about_risk = any(k in q for k in risk_keywords)
+        
+        # Determine if question is about holdings/stocks
+        holdings_keywords = ['holding', 'holdings', 'stock', 'stocks', 'portfolio composition', 'top 5', 'top 10', 'top five', 'top ten']
+        asking_about_holdings = any(k in q for k in holdings_keywords)
         
         # Find relevant chunks
         relevant_chunks = self.find_relevant_chunks(question, top_k=top_k)
         
-        # If asking about NAV, ONLY show expense_information chunks
-        if asking_about_nav:
-            # Filter to only expense_information chunks
+        # Filter to only chunks matching the specific fund mentioned in the question
+        # Extract fund name patterns from the question
+        mentioned_fund = None
+        best_match_score = 0
+        
+        for chunk in relevant_chunks:
+            fund_name = chunk['chunk']['fund_name']
+            fund_name_lower = fund_name.lower()
+            
+            # Check if significant parts of the fund name are in the question
+            # Split fund name into words and check how many appear in question
+            fund_words = [w for w in fund_name_lower.split() if len(w) > 3]  # Skip short words like 'and', 'the'
+            matching_words = sum(1 for word in fund_words if word in q)
+            
+            # If more than half the significant words match, consider it a match
+            if len(fund_words) > 0:
+                match_score = matching_words / len(fund_words)
+                if match_score > 0.5 and match_score > best_match_score:
+                    best_match_score = match_score
+                    mentioned_fund = fund_name_lower
+        
+        # If a specific fund was mentioned, filter to only that fund's chunks
+        if mentioned_fund:
+            relevant_chunks = [c for c in relevant_chunks if c['chunk']['fund_name'].lower() == mentioned_fund]
+        
+        # Filter by chunk type based on what's being asked
+        # Check characteristics first (more specific)
+        if asking_about_characteristics:
+            # Filter to only fund_characteristics chunks
+            char_chunks = [c for c in relevant_chunks if c['chunk'].get('chunk_type') == 'fund_characteristics']
+            if char_chunks:
+                relevant_chunks = char_chunks[:1]
+            else:
+                relevant_chunks = relevant_chunks[:1]
+        
+        elif asking_about_nav:
+            # NAV/SIP/Exit Load questions - filter to nav_sip_information chunks
+            nav_sip_chunks = [c for c in relevant_chunks if c['chunk'].get('chunk_type') == 'nav_sip_information']
+            if nav_sip_chunks:
+                relevant_chunks = nav_sip_chunks[:1]
+            else:
+                relevant_chunks = relevant_chunks[:1]
+        
+        elif asking_about_expense:
+            # Expense ratio questions - filter to expense_information chunks
             expense_chunks = [c for c in relevant_chunks if c['chunk'].get('chunk_type') == 'expense_information']
             if expense_chunks:
-                # Use only the most relevant expense chunk
-                relevant_chunks = [expense_chunks[0]]
+                relevant_chunks = expense_chunks[:1]
             else:
-                # Fallback if no expense chunk found
                 relevant_chunks = relevant_chunks[:1]
+        
+        # If asking about P/E or P/B, prioritize performance_metrics chunks
+        elif asking_about_performance:
+            # Filter to only performance_metrics chunks
+            perf_chunks = [c for c in relevant_chunks if c['chunk'].get('chunk_type') == 'performance_metrics']
+            if perf_chunks:
+                relevant_chunks = perf_chunks[:1]
+            else:
+                relevant_chunks = relevant_chunks[:1]
+        
+        # If asking about risk
+        elif asking_about_risk:
+            # Filter to only risk_information chunks
+            risk_chunks = [c for c in relevant_chunks if c['chunk'].get('chunk_type') == 'risk_information']
+            if risk_chunks:
+                relevant_chunks = risk_chunks[:1]
+            else:
+                relevant_chunks = relevant_chunks[:1]
+        
+        # If asking about holdings/stocks
+        elif asking_about_holdings:
+            # Filter to only holdings_information chunks
+            holdings_chunks = [c for c in relevant_chunks if c['chunk'].get('chunk_type') == 'holdings_information']
+            if holdings_chunks:
+                relevant_chunks = holdings_chunks[:1]
+            else:
+                relevant_chunks = relevant_chunks[:1]
+        
+        # For other specific queries, limit to relevant chunks
+        elif mentioned_fund:
+            # Already filtered above - just ensure we don't show too many
+            relevant_chunks = relevant_chunks[:3]
         
         # Check if the question is asking for general definitions/information not in RAG data
         # If very few relevant chunks found (low similarity), assume it's a general query
@@ -408,7 +641,7 @@ assistant = None
 
 @app.route('/')
 def index():
-    return render_template('simple_ui.html')
+    return render_template('chatbot.html')
 
 @app.route('/init', methods=['POST'])
 def initialize_assistant():

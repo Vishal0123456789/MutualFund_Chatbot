@@ -1,48 +1,110 @@
 import React from 'react';
 
-export const Sidebar = ({ onExampleQuestion }) => {
+export const Sidebar = ({ onExampleQuestion, isOpen, onClose }) => {
   const examples = [
     "What is the expense ratio of UTI ELSS Tax Saver Fund?",
-    "What is the P/B ratio of UTI India Consumer Fund Direct Growth?",
-    "Who is the fund manager of UTI India Consumer Fund Direct Growth?"
+    "What is the P/E ratio of UTI India Consumer Fund Direct Growth?",
+    "Who is the fund manager of UTI MNC Fund Direct Growth?",
+    "What is NAV of UTI Large & Mid Cap Fund Direct Growth?",
+    "Exit Load of UTI Infrastructure Fund Direct Growth?"
   ];
 
   return (
-    <aside className="w-1/3 bg-white p-6 border-r border-gray-200 overflow-y-auto">
-      {/* Warning Banner */}
-      <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded mb-6">
-        <p className="text-sm text-yellow-800 font-semibold">
-          ⚠️ FACTS-ONLY. NO INVESTMENT ADVICE.
-        </p>
-      </div>
+    <>
+      {/* Overlay for mobile */}
+      {isOpen && (
+        <div 
+          className="md:hidden fixed inset-0 bg-black bg-opacity-50 z-40"
+          onClick={onClose}
+        />
+      )}
+      
+      {/* Sidebar */}
+      <aside 
+        className={`
+          fixed md:static inset-y-0 left-0 z-50
+          w-80 md:w-80 bg-white border-r border-gray-200 
+          transform transition-transform duration-300
+          ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
+          flex flex-col overflow-y-auto
+        `}
+        style={{
+          padding: '24px',
+          gap: '24px'
+        }}
+      >
+        {/* Sidebar Header */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
+          <div style={{
+            width: '40px',
+            height: '40px',
+            background: 'linear-gradient(135deg, #2B6CB0 0%, #12346A 100%)',
+            borderRadius: '50%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: '#FFFFFF',
+            fontSize: '20px'
+          }}>
+            🤖
+          </div>
+          <h1 style={{ fontSize: '18px', fontWeight: '600', color: '#12346A' }}>
+            Mutual Fund Assistant
+          </h1>
+        </div>
 
-      {/* Info Section Title */}
-      <h2 className="text-lg font-bold text-text-dark mb-4">Info Section</h2>
+        {/* Welcome Message */}
+        <div style={{
+          background: '#F6F8FA',
+          padding: '16px',
+          borderRadius: '12px',
+          fontSize: '14px',
+          lineHeight: '1.5',
+          color: '#1F2937'
+        }}>
+          Hello! I'm your UTI Factual Assistant. Ask me anything about UTI AMC schemes.
+        </div>
 
-      {/* Welcome Message */}
-      <div className="bg-soft-gray rounded-lg p-4 mb-6">
-        <p className="text-sm text-text-dark leading-relaxed">
-          <span className="text-lg">👋</span> <strong>Welcome!</strong><br />
-          I'm your Mutual Fund FAQ Assistant. I can help you find specific, factual answers about UTI AMC schemes.
-        </p>
-      </div>
-
-      {/* Example Questions */}
-      <div className="bg-soft-gray rounded-lg p-4">
-        <h3 className="text-sm font-bold text-text-dark mb-3">❓ Example Questions</h3>
-        <ul className="space-y-2">
-          {examples.map((example, idx) => (
-            <li key={idx}>
+        {/* Suggestions Section */}
+        <div>
+          <p style={{
+            fontSize: '12px',
+            fontWeight: '600',
+            textTransform: 'uppercase',
+            color: '#6B7280',
+            marginBottom: '12px'
+          }}>
+            Suggested Questions
+          </p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            {examples.map((example, idx) => (
               <button
+                key={idx}
                 onClick={() => onExampleQuestion(example)}
-                className="text-sm text-accent-blue hover:underline text-left w-full break-words"
+                style={{
+                  display: 'flex',
+                  alignItems: 'flex-start',
+                  gap: '10px',
+                  padding: '12px',
+                  background: '#F6F8FA',
+                  border: '1px solid #E5E7EB',
+                  borderRadius: '8px',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease',
+                  fontSize: '13px',
+                  lineHeight: '1.4',
+                  color: '#1F2937',
+                  textAlign: 'left'
+                }}
+                className="suggestion-btn"
               >
-                • {example}
+                <span style={{ color: '#EAAA08', marginTop: '2px' }}>❔</span>
+                <span>{example}</span>
               </button>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </aside>
+            ))}
+          </div>
+        </div>
+      </aside>
+    </>
   );
 };

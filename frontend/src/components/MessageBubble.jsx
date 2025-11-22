@@ -3,34 +3,85 @@ import React from 'react';
 export const MessageBubble = ({ text, sender, sources = [] }) => {
   const isUser = sender === 'user';
 
+  if (isUser) {
+    return (
+      <div className="flex justify-end">
+        <div style={{
+          background: '#2B6CB0',
+          color: '#FFFFFF',
+          padding: '16px',
+          borderRadius: '20px',
+          maxWidth: '70%',
+          fontSize: '14px',
+          lineHeight: '1.6',
+          boxShadow: '0 1px 2px rgba(0, 0, 0, 0.05)'
+        }}>
+          {text}
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className={`flex ${isUser ? 'justify-end' : 'justify-start'} mb-4`}>
-      <div
-        className={`max-w-2xl px-4 py-3 rounded-lg shadow-sm ${
-          isUser
-            ? 'bg-accent-blue text-white rounded-br-none'
-            : 'bg-soft-gray text-text-dark rounded-bl-none border border-gray-200'
-        }`}
-      >
-        <p className="text-sm leading-relaxed">{text}</p>
+    <div className="flex items-start gap-3">
+      {/* Bot Avatar */}
+      <div style={{
+        width: '40px',
+        height: '40px',
+        minWidth: '40px',
+        background: 'linear-gradient(135deg, #2B6CB0 0%, #12346A 100%)',
+        borderRadius: '50%',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: '#FFFFFF',
+        fontSize: '20px'
+      }}>
+        🤖
+      </div>
+
+      {/* Message Content */}
+      <div className="flex-1">
+        <div style={{
+          background: '#FFFFFF',
+          padding: '16px',
+          borderRadius: '12px',
+          boxShadow: '0 1px 2px rgba(0, 0, 0, 0.05)',
+          maxWidth: '70%',
+          fontSize: '14px',
+          lineHeight: '1.6',
+          color: '#1F2937',
+          whiteSpace: 'pre-wrap'
+        }}>
+          {text}
+        </div>
         
         {/* Sources */}
-        {!isUser && sources && sources.length > 0 && (
-          <div className="mt-3 pt-3 border-t border-gray-300 text-xs">
-            <p className="font-semibold mb-2">Sources:</p>
-            {sources.map((source, idx) => (
-              <div key={idx} className="mb-1">
-                <p className="font-medium">{source.fund_name}</p>
+        {sources && sources.length > 0 && (
+          <div style={{
+            marginTop: '12px',
+            marginLeft: '0',
+            fontSize: '12px',
+            color: '#6B7280'
+          }}>
+            <strong>Sources:</strong>
+            <div style={{ marginTop: '8px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+              {sources.map((source, idx) => (
                 <a
+                  key={idx}
                   href={source.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-accent-blue hover:underline break-all"
+                  style={{
+                    color: '#2B6CB0',
+                    textDecoration: 'none'
+                  }}
+                  className="hover:underline"
                 >
-                  {source.type.replace('_', ' ')}
+                  {source.fund_name} ({source.type.replace('_', ' ')})
                 </a>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         )}
       </div>
