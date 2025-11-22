@@ -33,6 +33,27 @@ export const Sidebar = ({ onExampleQuestion, isOpen, onClose }) => {
           gap: '24px'
         }}
       >
+        {/* Close button for mobile only */}
+        <div className="md:hidden" style={{ position: 'absolute', top: '16px', right: '16px', zIndex: 10 }}>
+          <button
+            onClick={onClose}
+            style={{
+              background: 'none',
+              border: 'none',
+              fontSize: '24px',
+              cursor: 'pointer',
+              color: '#6B7280',
+              width: '32px',
+              height: '32px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
+            ×
+          </button>
+        </div>
+
         {/* Sidebar Header */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px' }}>
           <div style={{

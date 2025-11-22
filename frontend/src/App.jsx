@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
@@ -18,6 +18,17 @@ export default function App() {
   ]);
   const [loading, setLoading] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  // Auto-open sidebar on first mobile visit
+  useEffect(() => {
+    const isMobile = window.innerWidth < 768; // md breakpoint
+    const hasSeenSidebar = localStorage.getItem('chat_side_seen');
+    
+    if (isMobile && !hasSeenSidebar) {
+      setSidebarOpen(true);
+      localStorage.setItem('chat_side_seen', 'true');
+    }
+  }, []);
 
   const handleSendMessage = async (text) => {
     // Close sidebar on mobile
@@ -73,8 +84,8 @@ export default function App() {
 
       {/* Main Chat Area */}
       <div className="flex-1 flex flex-col">
-        {/* Top Banner */}
-        <div style={{
+        {/* Top Banner - Fixed on mobile */}
+        <div className="md:static fixed top-0 left-0 right-0 z-30" style={{
           background: 'linear-gradient(135deg, #F2C94C 0%, #FFD700 100%)',
           padding: '12px 24px',
           display: 'flex',
@@ -89,8 +100,9 @@ export default function App() {
           <span>FACTS-ONLY. NO INVESTMENT ADVICE.</span>
         </div>
 
-        {/* Mobile Header */}
-        <div className="md:hidden" style={{
+        {/* Mobile Header - Fixed on mobile */}
+        <div className="md:hidden fixed left-0 right-0 z-30" style={{
+          top: '44px', /* Below top banner */
           background: '#FFFFFF',
           padding: '16px 24px',
           borderBottom: '1px solid #E5E7EB',
@@ -115,6 +127,9 @@ export default function App() {
           </h2>
           <div style={{ width: '32px' }}></div>
         </div>
+
+        {/* Spacer for fixed headers on mobile */}
+        <div className="md:hidden" style={{ height: '104px' }}></div>
 
         <ChatWindow messages={messages} loading={loading} />
         <InputBar onSend={handleSendMessage} disabled={loading} />
