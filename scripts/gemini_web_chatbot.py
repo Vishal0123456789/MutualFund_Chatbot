@@ -32,17 +32,7 @@ from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__, template_folder=str(Path(__file__).parent.parent / 'templates'))
-
-# Configure CORS with explicit settings
-CORS(app, resources={
-    r"/*": {
-        "origins": ["*"],
-        "methods": ["GET", "POST", "OPTIONS"],
-        "allow_headers": ["Content-Type", "Authorization"],
-        "expose_headers": ["Content-Type"],
-        "supports_credentials": False
-    }
-})
+CORS(app)  # Enable CORS for all routes
 
 class WebGeminiFAQAssistant:
     def __init__(self, rag_data_path='rag_data/rag_chunks.json', embeddings_path='rag_data/embeddings.pkl', api_key=None):
@@ -100,7 +90,8 @@ class WebGeminiFAQAssistant:
         
         results = []
         for idx in top_indices:
-            if similarities[idx] > 0.1:  # Threshold to filter out irrelevant chunks
+            # Lower threshold to 0.2 to catch all relevant chunks
+            if similarities[idx] > 0.2:
                 results.append({
                     'chunk': self.chunks[idx],
                     'similarity': similarities[idx]
@@ -143,8 +134,24 @@ class WebGeminiFAQAssistant:
             return self.generate_basic_response(question, context)
         
         try:
-            # Create prompt for Gemini
-            prompt = f"""
+            # Detect if this is a NAV question for special handling
+            q_lower = question.lower()
+            is_nav_question = any(k in q_lower for k in ['nav', 'net asset value', 'current price'])
+            
+            # Create prompt for Gemini with NAV priority
+            if is_nav_question:
+                prompt = f"""Extract the NAV (Net Asset Value) information from the context.
+Provide a direct, concise answer in this format:
+"The NAV of [Fund Name] is Rs [NAV amount] as on [date]."
+
+Context:
+{context}
+
+Question: {question}
+
+Response:"""
+            else:
+                prompt = f"""
 You are a helpful assistant answering questions about UTI mutual funds. 
 Use the following context to answer the question accurately and concisely.
 
@@ -162,8 +169,7 @@ Response:
 """
 
             # Using REST API for Gemini calls
-            # Fallback to REST API approach
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={self.api_key}"
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={self.api_key}"
             
             headers = {
                 "Content-Type": "application/json"
@@ -190,17 +196,10 @@ Response:
     
     def generate_basic_response(self, question: str, context: str) -> str:
         """Generate basic response when LLM is not available"""
-        # Extract key information from context
-        lines = context.split('\n')
-        if len(lines) > 10:
-            # Truncate for readability
-            context_summary = '\n'.join(lines[:10]) + "\n... (more information available)"
-        else:
-            context_summary = context
-        
+        # Return full context without truncation
         return f"""Based on the information I found:
 
-{context_summary}"""
+{context}"""
     
     def answer_question(self, question: str) -> Dict:
         """Generate answer for a question using relevant chunks"""
@@ -246,8 +245,23 @@ Response:
         top_k = int(number_match.group(1)) if number_match else 10
         top_k = min(top_k, 15)  # Cap at 15 to avoid overwhelming responses
         
+        # Determine if question is about NAV - more robust detection
+        nav_keywords = ['nav', 'net asset value', 'current nav', 'today nav', 'current price']
+        asking_about_nav = any(k in q for k in nav_keywords)
+        
         # Find relevant chunks
         relevant_chunks = self.find_relevant_chunks(question, top_k=top_k)
+        
+        # If asking about NAV, ONLY show expense_information chunks
+        if asking_about_nav:
+            # Filter to only expense_information chunks
+            expense_chunks = [c for c in relevant_chunks if c['chunk'].get('chunk_type') == 'expense_information']
+            if expense_chunks:
+                # Use only the most relevant expense chunk
+                relevant_chunks = [expense_chunks[0]]
+            else:
+                # Fallback if no expense chunk found
+                relevant_chunks = relevant_chunks[:1]
         
         # Check if the question is asking for general definitions/information not in RAG data
         # If very few relevant chunks found (low similarity), assume it's a general query

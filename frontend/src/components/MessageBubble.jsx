@@ -6,7 +6,7 @@ export const MessageBubble = ({ text, sender, sources = [] }) => {
   return (
     <div className={`flex ${isUser ? 'justify-end' : 'justify-start'} mb-4`}>
       <div
-        className={`max-w-xs px-4 py-3 rounded-lg shadow-sm ${
+        className={`max-w-2xl px-4 py-3 rounded-lg shadow-sm ${
           isUser
             ? 'bg-accent-blue text-white rounded-br-none'
             : 'bg-soft-gray text-text-dark rounded-bl-none border border-gray-200'

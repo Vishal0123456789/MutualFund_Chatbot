@@ -8,7 +8,9 @@
         "expense_ratio": "0.97%",
         "exit_load": "A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "198.78",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -19,7 +21,9 @@
         "expense_ratio": "0.91%",
         "exit_load": "Nil",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "295.45",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -29,7 +33,9 @@
       "data": {
         "expense_ratio": "0.18%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "18.52",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -39,7 +45,9 @@
       "data": {
         "expense_ratio": "0.82%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "156.34",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -49,7 +57,9 @@
       "data": {
         "expense_ratio": "1.31%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "167.89",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -59,7 +69,9 @@
       "data": {
         "expense_ratio": "0.63%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "234.12",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -69,7 +81,9 @@
       "data": {
         "expense_ratio": "1.18%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "312.56",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -79,7 +93,9 @@
       "data": {
         "expense_ratio": "0.91%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "289.67",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -90,7 +106,9 @@
         "expense_ratio": "0.34%",
         "exit_load": "Nil",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "287.23",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -100,7 +118,9 @@
       "data": {
         "expense_ratio": "1.11%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "456.78",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -111,7 +131,9 @@
         "expense_ratio": "0.17%",
         "exit_load": "Nil",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "278.45",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -121,7 +143,9 @@
       "data": {
         "expense_ratio": "1.01%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "412.89",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -130,7 +154,9 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.22%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "103.45",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -139,7 +165,9 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.15%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "101.23",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -149,7 +177,9 @@
       "data": {
         "expense_ratio": "1.25%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "189.56",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -159,7 +189,9 @@
       "data": {
         "expense_ratio": "1.57%",
         "min_sip": 500,
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "156.78",
+        "nav_date": "21-11-2025"
       }
     },
     {
@@ -168,7 +200,9 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.27%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "nav": "145.34",
+        "nav_date": "21-11-2025"
       }
     }
   ],
