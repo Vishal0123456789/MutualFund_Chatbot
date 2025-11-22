@@ -1,176 +1,383 @@
-# UTI Mutual Fund FAQ Assistant - Data Extraction
+# UTI Mutual Fund Factual Chatbot
 
-This project implements a data extraction system for UTI mutual fund schemes from Groww platform. The extracted data will be used to build an FAQ chatbot.
+> A RAG-based factual information assistant for UTI Mutual Funds that provides accurate, source-attributed answers to user queries about UTI AMC schemes.
 
-## Project Structure
+## 🎯 Project Overview
+
+This project implements a **Retrieval-Augmented Generation (RAG)** chatbot that answers questions about UTI Mutual Funds using factual data scraped from Groww. The system combines semantic search with Google's Gemini AI to deliver accurate, traceable responses without providing investment advice.
+
+### Key Features
+
+- ✅ **Factual Information Only** - No investment advice, only verifiable facts
+- ✅ **Source Attribution** - Every response includes Groww source URLs
+- ✅ **RAG Architecture** - Semantic search over 211 data chunks with embeddings
+- ✅ **35 UTI Funds Coverage** - Complete data for all major UTI schemes
+- ✅ **Real-time Data** - Scraped holdings, exit loads, expense ratios, NAV, etc.
+- ✅ **Mobile-First UI** - Responsive design with auto-opening sidebar
+- ✅ **Smart Query Detection** - Automatically routes to appropriate data types
+
+## 🏗️ Architecture
 
 ```
-faq-assistant/
-├── scraper/
-│   ├── __init__.py
-│   ├── groww_scraper.py      # Main scraper for Groww pages
-│   └── validators.py          # Data validation utilities
-├── database/
-│   ├── __init__.py
-│   ├── models.py              # SQLAlchemy database models
-│   └── db_manager.py          # Database operations
-├── scripts/
-│   ├── test_scraper.py        # Test script for single URL
-│   └── scrape_uti_schemes.py  # Batch scraping script
-├── data/                      # Database and scraped data (created at runtime)
-├── requirements.txt
+┌─────────────┐      ┌──────────────┐      ┌─────────────┐
+│   Frontend  │ ───> │   Flask API  │ ───> │   Gemini    │
+│   (React)   │ <─── │   (Python)   │ <─── │     AI      │
+└─────────────┘      └──────────────┘      └─────────────┘
+                            │
+                            ├──> Sentence Transformers
+                            │    (Embeddings)
+                            │
+                            └──> RAG Chunks JSON
+                                 (211 chunks)
+```
+
+### Tech Stack
+
+**Backend:**
+- Python 3.11
+- Flask + CORS
+- Google Gemini API (gemini-pro)
+- Sentence Transformers (all-MiniLM-L6-v2)
+- BeautifulSoup4 (web scraping)
+
+**Frontend:**
+- React 18 + Vite
+- TailwindCSS
+- Axios
+
+**Deployment:**
+- Frontend: Vercel
+- Backend: Railway
+
+## 📁 Project Structure
+
+```
+Milestone 1/
+├── frontend/                    # React frontend application
+│   ├── src/
+│   │   ├── components/         # UI components (Sidebar, ChatWindow, etc.)
+│   │   ├── App.jsx            # Main app component
+│   │   └── index.css          # TailwindCSS styles
+│   ├── vite.config.js         # Vite config with proxy
+│   └── package.json
+│
+├── scripts/                    # Backend scripts
+│   ├── gemini_web_chatbot.py  # Main Flask API server
+│   ├── scrape_holdings.py     # Holdings data scraper
+│   ├── scrape_exit_loads.py   # Exit load data scraper
+│   ├── split_expense_chunks.py # Data chunk splitter
+│   └── regenerate_embeddings.py # Embedding generator
+│
+├── rag_data/                   # RAG data storage
+│   ├── rag_chunks.json        # 211 structured data chunks
+│   └── embeddings.pkl         # Pre-computed embeddings
+│
+├── scraper/                    # Web scraping utilities
+│   ├── groww_scraper.py       # Main scraper
+│   └── validators.py          # Data validation
+│
+├── database/                   # SQLite database (legacy)
+│   ├── models.py
+│   └── db_manager.py
+│
+├── requirements.txt           # Python dependencies
 └── README.md
 ```
 
-## Features
+## 🚀 Quick Start
 
-- ✅ Scrapes comprehensive data from Groww mutual fund scheme pages
-- ✅ Validates all scraped data
-- ✅ Stores data with source URLs in SQLite database
-- ✅ Supports batch scraping of multiple schemes
-- ✅ Error handling and logging
+### Prerequisites
 
-## Data Points Extracted
+- Python 3.11+
+- Node.js 18+
+- Google Gemini API key
 
-For each UTI mutual fund scheme, the scraper extracts:
+### Backend Setup
 
-1. **Fund Name** - Full name of the scheme
-2. **NAV** - Net Asset Value with date
-3. **Min. SIP Amount** - Minimum SIP investment
-4. **Fund Size** - Assets Under Management (AUM)
-5. **P/E Ratio** - Price to Earnings ratio
-6. **P/B Ratio** - Price to Book ratio
-7. **Fund Returns** - 1Y, 3Y, 5Y returns
-8. **Category Averages** - Category average returns
-9. **Rank** - Rank within category
-10. **Expense Ratio** - Total expense ratio
-11. **Exit Load** - Exit load details
-12. **Stamp Duty** - Stamp duty percentage
-13. **Fund Manager** - Fund manager name
-14. **Annualised Returns** - 3Y and 5Y annualised returns
-15. **Holdings** - Top holdings (if available)
-16. **Risk Metrics** - Alpha, Beta, Sharpe, Sortino ratios
+1. **Clone the repository**
+   ```bash
+   git clone <repo-url>
+   cd "Milestone 1"
+   ```
 
-## Installation
+2. **Create virtual environment**
+   ```bash
+   python -m venv .venv_gemini
+   .venv_gemini\Scripts\activate  # Windows
+   ```
 
-1. Clone the repository
-2. Install dependencies:
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+4. **Set up Gemini API key**
+   ```bash
+   set GEMINI_API_KEY=your_api_key_here
+   ```
+
+5. **Run backend server**
+   ```bash
+   python scripts\gemini_web_chatbot.py
+   ```
+   Backend runs on `http://localhost:5000`
+
+### Frontend Setup
+
+1. **Navigate to frontend**
+   ```bash
+   cd frontend
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run development server**
+   ```bash
+   npm run dev
+   ```
+   Frontend runs on `http://localhost:3001`
+
+4. **Open in browser**
+   Navigate to `http://localhost:3001`
+
+## 📊 Data Coverage
+
+### 35 UTI Mutual Funds
+
+The chatbot covers all major UTI schemes across categories:
+- **Equity Funds**: Large Cap, Mid Cap, Large & Mid Cap, Flexi Cap, Focused, Value, Infrastructure, Healthcare, Consumer, Technology, MNC, etc.
+- **Debt Funds**: Corporate Bond, Banking & PSU, Dynamic Bond, Short/Medium Duration, etc.
+- **Hybrid Funds**: Balanced Advantage, Multi-Asset, Aggressive Hybrid
+- **ELSS**: Tax Saver Fund
+- **Index Funds**: Nifty, Nifty Next 50
+- **Liquid & Overnight Funds**
+
+### Data Types (211 Chunks)
+
+**Per Fund:**
+1. **Expense Information** (35 chunks)
+   - Expense Ratio
+   - Stamp Duty
+
+2. **NAV/SIP Information** (35 chunks)
+   - Current NAV with date
+   - Minimum SIP amount
+   - Exit Load details
+
+3. **Fund Characteristics** (35 chunks)
+   - Fund Size (AUM)
+   - Fund Manager names
+   - Scheme Type
+   - Category
+
+4. **Performance Metrics** (35 chunks)
+   - P/E Ratio
+   - P/B Ratio
+
+5. **Holdings Information** (35 chunks)
+   - Top 5 stock holdings
+   - Percentage allocation
+
+6. **Risk Metrics** (36 chunks)
+   - Alpha, Beta, Sharpe, Sortino ratios
+
+## ⚙️ How It Works
+
+### RAG Pipeline
+
+1. **User Query** → Frontend sends question to Flask API
+
+2. **Query Embedding** → Convert question to 384-dim vector using sentence-transformers
+
+3. **Semantic Search** → Find top relevant chunks using cosine similarity (threshold: 0.2)
+
+4. **Smart Filtering** → Route to specific chunk types based on keywords:
+   - "expense ratio" → expense_information
+   - "NAV", "SIP", "exit load" → nav_sip_information
+   - "fund manager", "category" → fund_characteristics
+   - "P/E", "P/B" → performance_metrics
+   - "holdings", "stocks" → holdings_information
+
+5. **Context Building** → Format relevant chunks with fund name and data
+
+6. **Gemini Generation** → Generate clean, formatted response
+
+7. **Response** → Return answer with Groww source URLs
+
+### Guardrails
+
+- **Investment Advice Detection**: Blocks queries asking for recommendations
+- **Greeting Handler**: Responds to "Hi"/"Hello" with welcome message
+- **Unknown Info Handler**: Returns "I don't have this information" for missing data
+
+## 📝 Example Queries
+
+**Expense & Costs:**
+- "What is the expense ratio of UTI ELSS Tax Saver Fund?"
+- "Stamp duty for UTI Nifty Index Fund?"
+
+**NAV & Investment:**
+- "What is NAV of UTI Large & Mid Cap Fund Direct Growth?"
+- "Minimum SIP for UTI Infrastructure Fund?"
+- "Exit Load of UTI Healthcare Fund?"
+
+**Fund Details:**
+- "Who is the fund manager of UTI MNC Fund Direct Growth?"
+- "What is the scheme type of UTI Value Fund?"
+- "Fund size of UTI Flexi Cap Fund?"
+
+**Performance:**
+- "What is the P/E ratio of UTI India Consumer Fund Direct Growth?"
+- "P/B ratio of UTI Technology Fund?"
+
+**Holdings:**
+- "What are the top holdings of UTI Nifty Index Fund?"
+- "Show me holdings of UTI Large Cap Fund?"
+
+## 🛠️ Development
+
+### Data Scraping
+
+**Scrape Holdings Data:**
 ```bash
-pip install -r requirements.txt
+python scripts\scrape_holdings.py
 ```
 
-## Usage
-
-### Test Single Scheme
-
-Test the scraper with a single URL:
-
+**Scrape Exit Loads:**
 ```bash
-python scripts/test_scraper.py "https://groww.in/mutual-funds/uti-large-mid-cap-fund-direct-growth"
+python scripts\scrape_exit_loads.py
 ```
 
-### Scrape Multiple Schemes
-
-Scrape multiple UTI schemes:
-
+**Regenerate Embeddings:**
 ```bash
-python scripts/scrape_uti_schemes.py
+python scripts\regenerate_embeddings.py
 ```
 
-Or provide URLs as arguments:
+### Data Structure
 
-```bash
-python scripts/scrape_uti_schemes.py "https://groww.in/mutual-funds/uti-healthcare-fund-direct-growth" "https://groww.in/mutual-funds/uti-india-consumer-fund-direct-growth"
-```
-
-Or provide a file with URLs (one per line):
-
-```bash
-python scripts/scrape_uti_schemes.py urls.txt
-```
-
-## Database
-
-The scraped data is stored in SQLite database at `data/mutual_funds.db`.
-
-### Database Schema
-
-- **schemes** - Stores scheme information
-- **scheme_data** - Stores individual data points with source URLs
-- **scrape_logs** - Logs all scraping activities
-
-## Data Validation
-
-All scraped data is validated using the `DataValidator` class:
-
-- URL validation
-- Data type validation
-- Range validation
-- Format validation
-
-Validation results include:
-- **Errors** - Critical issues that prevent data saving
-- **Warnings** - Non-critical issues (missing optional data)
-
-## Source URL Tracking
-
-Every data point is stored with its source URL from Groww website. This ensures:
-- Traceability of information
-- Ability to verify data
-- Compliance with data attribution requirements
-
-## Example Output
-
+**rag_chunks.json** format:
 ```json
 {
-  "fund_name": "UTI Large & Mid Cap Fund Direct Growth",
-  "nav": {
-    "value": "199.23",
-    "date": "14 Nov 2025"
-  },
-  "min_sip": "500",
-  "fund_size": "5291.10 Cr",
-  "fund_returns": {
-    "1Y": "9.3%",
-    "3Y": "22.4%",
-    "5Y": "25.2%"
-  },
-  "category_averages": {
-    "1Y": "4.9%",
-    "3Y": "17.5%",
-    "5Y": "20.6%"
-  },
-  "rank": {
-    "1Y": "20",
-    "3Y": "4",
-    "5Y": "5"
-  },
-  "expense_ratio": "0.97%",
-  "exit_load": "1% if redeemed within 1 year",
-  "stamp_duty": "0.005%",
-  "fund_manager": "V Srivatsa",
-  "source_url": "https://groww.in/mutual-funds/uti-large-mid-cap-fund-direct-growth",
-  "scraped_at": "2025-01-XX XX:XX:XX"
+  "expense_information": [
+    {
+      "fund_name": "UTI Large & Mid Cap Fund Direct Growth",
+      "chunk_type": "expense_information",
+      "data": {
+        "expense_ratio": "0.97%",
+        "stamp_duty": "0.005%"
+      },
+      "source_url": "https://groww.in/mutual-funds/..."
+    }
+  ],
+  "nav_sip_information": [...],
+  "fund_characteristics": [...],
+  "performance_metrics": [...],
+  "holdings_information": [...]
 }
 ```
 
-## Notes
+## 🚀 Deployment
 
-- The scraper respects rate limiting with delays between requests
-- All URLs are validated before scraping
-- Data is validated before saving to database
-- Failed scrapes are logged for debugging
+### Production URLs
 
-## Next Steps
+- **Frontend**: Deployed on Vercel
+- **Backend**: Deployed on Railway at `https://mutualfundchatbot-production.up.railway.app`
 
-1. ✅ Data extraction (Current)
-2. ⏳ Generate embeddings for RAG
-3. ⏳ Build chatbot API
-4. ⏳ Create frontend interface
-5. ⏳ Implement data refresh system
+### Environment Variables
 
-## License
+**Backend (Railway):**
+```
+GEMINI_API_KEY=your_gemini_api_key
+```
 
-This project is for educational purposes only. Please respect Groww's terms of service and robots.txt when scraping.
+**Frontend (Vercel):**
+```
+VITE_API_URL=https://mutualfundchatbot-production.up.railway.app
+```
+
+### Deploy Commands
+
+```bash
+# Commit changes
+git add .
+git commit -m "Your message"
+
+# Push to deploy (auto-deploys to Vercel and Railway)
+git push origin main
+```
+
+## 📱 Mobile Features
+
+- **Fixed Header**: Always visible at top of viewport
+- **Auto-open Sidebar**: Opens automatically on first mobile visit (tracked via localStorage `chat_side_seen`)
+- **Close Button**: Visible only on mobile view
+- **Responsive Design**: Adapts to all screen sizes
+
+## 📜 API Reference
+
+### POST /ask
+
+**Request:**
+```json
+{
+  "question": "What is the expense ratio of UTI ELSS Tax Saver Fund?"
+}
+```
+
+**Response:**
+```json
+{
+  "response": "UTI ELSS Tax Saver Fund Direct Growth\nExpense Ratio: 0.91%\nStamp Duty: 0.005%\nSource: https://groww.in/mutual-funds/...",
+  "sources": [
+    {
+      "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
+      "url": "https://groww.in/mutual-funds/...",
+      "type": "expense information"
+    }
+  ]
+}
+```
+
+## ⚠️ Important Notes
+
+## ⚠️ Important Notes
+
+- **This is a factual information chatbot only** - Does NOT provide investment advice or recommendations
+- **Source Attribution**: Every response includes Groww source URLs for verification
+- **Data Freshness**: NAV data is as of the last scrape (check NAV date in responses)
+- **Rate Limiting**: Scrapers use 2-second delays to respect Groww's servers
+- **Educational Purpose**: Please respect Groww's terms of service
+
+## 🛡️ Disclaimer
+
+This chatbot provides **factual information only** about UTI Mutual Funds. It does not:
+- Provide investment advice or recommendations
+- Suggest which funds to buy or sell
+- Analyze portfolio suitability
+- Guarantee data accuracy (always verify from official sources)
+
+**For investment decisions, please consult a certified financial advisor.**
+
+## 📝 License
+
+This project is for educational purposes only.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest new features
+- Improve documentation
+- Add support for more AMCs
+
+## 📧 Contact
+
+For questions or feedback, please open an issue on GitHub.
+
+---
+
+**Built with ❤️ using RAG, Gemini AI, and React**
 

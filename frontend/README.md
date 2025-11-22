@@ -1,35 +1,70 @@
-# UTI Mutual Fund FAQ Assistant - Frontend
+# Frontend - UTI Mutual Fund Factual Chatbot
 
-A modern React + TailwindCSS UI for the UTI Mutual Fund FAQ Assistant.
+React + Vite + TailwindCSS frontend for the UTI Mutual Fund chatbot.
 
-## Setup
+> For complete project documentation, see [main README](../README.md)
+
+## Quick Start
 
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
 
-Opens at http://localhost:3000
+Runs on `http://localhost:3001`
 
-## Project Structure
+## Component Structure
 
-- `src/App.jsx` - Main application component
-- `src/components/` - Modular components:
-  - `Sidebar.jsx` - Info section with warning, welcome, and example questions
-  - `ChatWindow.jsx` - Chat message display area
-  - `MessageBubble.jsx` - Individual message component with sources
-  - `InputBar.jsx` - Fixed input bar at bottom
-- `src/index.css` - TailwindCSS setup
-- `tailwind.config.js` - TailwindCSS configuration
-- `vite.config.js` - Vite configuration with backend proxy
+```
+src/
+├── components/
+│   ├── Sidebar.jsx        # Left panel with suggestions
+│   ├── ChatWindow.jsx     # Message display area
+│   ├── MessageBubble.jsx  # Individual messages
+│   └── InputBar.jsx       # Bottom input field
+├── App.jsx               # Main app component
+└── index.css             # TailwindCSS styles
+```
 
 ## Features
 
-- Left sidebar with info section, warning banner, welcome text, and example questions
-- Right chat area with message bubbles (user right, bot left)
-- Fixed bottom input bar with text field and send button
+✅ **Mobile-First Design**
+- Fixed headers on mobile
+- Auto-opening sidebar on first visit
+- Responsive layout
+
+✅ **User Experience**
+- Suggested questions in sidebar
+- Source attribution for responses
 - Auto-scroll to latest message
-- Source attribution for bot responses
-- Soft colors, rounded cards, subtle shadows
-- Responsive design
+- Loading states
+
+✅ **Modern UI**
+- TailwindCSS styling
+- Gradient accents
+- Rounded cards with shadows
+- Paper plane send button
+
+## Environment Variables
+
+**Development (.env):**
+```
+VITE_API_URL=http://localhost:5000
+```
+
+**Production (.env.production):**
+```
+VITE_API_URL=https://mutualfundchatbot-production.up.railway.app
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Output in `dist/` directory.
+
+## Deployment
+
+Auto-deploys to Vercel on push to main branch.
