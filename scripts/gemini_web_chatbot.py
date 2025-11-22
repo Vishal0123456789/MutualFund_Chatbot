@@ -100,10 +100,57 @@ class WebGeminiFAQAssistant:
         return results
     
     def format_context_for_gemini(self, relevant_chunks: List[Dict]) -> str:
-        """Format context for Gemini prompt"""
+        """Format context for Gemini prompt with better structure for NAV"""
         if not relevant_chunks:
             return "No relevant information found."
         
+        # Check if this is NAV data (expense_information)
+        is_nav_data = any(c['chunk'].get('chunk_type') == 'expense_information' for c in relevant_chunks)
+        
+        if is_nav_data:
+            # Special formatting for NAV data
+            context_parts = []
+            for result in relevant_chunks:
+                chunk = result['chunk']
+                if chunk['chunk_type'] == 'expense_information':
+                    fund_name = chunk['fund_name']
+                    data = chunk['data']
+                    
+                    context_parts.append(f"{fund_name}")
+                    context_parts.append("")
+                    context_parts.append("Key Investment Details")
+                    context_parts.append("")
+                    
+                    if 'nav' in data:
+                        nav_date = data.get('nav_date', 'N/A')
+                        context_parts.append(f"NAV: ₹{data['nav']} (as of {nav_date})")
+                    
+                    if 'min_sip' in data:
+                        context_parts.append(f"Minimum SIP: ₹{data['min_sip']}")
+                    
+                    if 'exit_load' in data:
+                        exit_load = data['exit_load']
+                        if exit_load.lower() == 'nil':
+                            context_parts.append("Exit Load: None")
+                        else:
+                            context_parts.append(f"Exit Load: {exit_load}")
+                    
+                    context_parts.append("")
+                    context_parts.append("Cost & Charges")
+                    context_parts.append("")
+                    
+                    if 'expense_ratio' in data:
+                        context_parts.append(f"Expense Ratio: {data['expense_ratio']}")
+                    
+                    if 'stamp_duty' in data:
+                        context_parts.append(f"Stamp Duty: {data['stamp_duty']}")
+                    
+                    context_parts.append("")
+                    context_parts.append(f"Source: {chunk['source_url']}")
+            
+            return "\n".join(context_parts)
+        
+        # Default formatting for other data types
         context_parts = []
         context_parts.append("Relevant information about UTI mutual funds:")
         
@@ -140,14 +187,33 @@ class WebGeminiFAQAssistant:
             
             # Create prompt for Gemini with NAV priority
             if is_nav_question:
-                prompt = f"""Extract the NAV (Net Asset Value) information from the context.
-Provide a direct, concise answer in this format:
-"The NAV of [Fund Name] is Rs [NAV amount] as on [date]."
+                prompt = f"""Format the NAV (Net Asset Value) information in a clear, well-structured format.
 
 Context:
 {context}
 
 Question: {question}
+
+Please format the response like this example:
+
+[Fund Name] — [Plan Type]
+
+Category: [Fund Category]
+
+Key Investment Details
+
+NAV: ₹[amount] (as of [date])
+Minimum SIP: ₹[amount]
+Exit Load: [value or None]
+
+Cost & Charges
+
+Expense Ratio: [percentage]
+Stamp Duty: [percentage]
+
+Source: [source]
+
+Make sure to include all available information from the context.
 
 Response:"""
             else:
@@ -169,7 +235,7 @@ Response:
 """
 
             # Using REST API for Gemini calls
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={self.api_key}"
+            url = f"https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key={self.api_key}"
             
             headers = {
                 "Content-Type": "application/json"
