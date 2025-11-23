@@ -6,11 +6,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.97%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "V Srivatsa",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
       },
       "expense_ratio": "0.97%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
@@ -18,11 +24,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.91%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 25.55,
+        "pb_ratio": 3.79
       },
       "expense_ratio": "0.91%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 25.55,
+      "pb_ratio": 3.79
     },
     {
       "fund_name": "UTI Gold ETF FoF Direct Growth",
@@ -30,11 +42,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.18%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 1.78,
+        "pb_ratio": null
       },
       "expense_ratio": "0.18%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 1.78,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
@@ -42,11 +60,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.82%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Sachin Trivedi",
+        "pe_ratio": 31.03,
+        "pb_ratio": 5.58
       },
       "expense_ratio": "0.82%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sachin Trivedi",
+      "pe_ratio": 31.03,
+      "pb_ratio": 5.58
     },
     {
       "fund_name": "UTI Healthcare Fund Direct Growth",
@@ -54,11 +78,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.31%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
       },
       "expense_ratio": "1.31%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Small Cap Fund Direct Growth",
@@ -66,11 +96,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.63%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Nitin Jain",
+        "pe_ratio": 32.25,
+        "pb_ratio": 4.33
       },
-      "expense_ratio": "0.64%",
+      "expense_ratio": "0.63%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 32.25,
+      "pb_ratio": 4.33
     },
     {
       "fund_name": "UTI Value Fund Direct Growth",
@@ -78,11 +114,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.18%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 22.14,
+        "pb_ratio": 3.02
       },
       "expense_ratio": "1.18%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 22.14,
+      "pb_ratio": 3.02
     },
     {
       "fund_name": "UTI Mid Cap Fund Direct Growth",
@@ -90,11 +132,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.91%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 32.93,
+        "pb_ratio": 4.83
       },
       "expense_ratio": "0.91%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 32.93,
+      "pb_ratio": 4.83
     },
     {
       "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
@@ -102,11 +150,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.34%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 21.6,
+        "pb_ratio": 3.68
       },
       "expense_ratio": "0.34%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 21.6,
+      "pb_ratio": 3.68
     },
     {
       "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
@@ -114,11 +168,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.11%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 19.02,
+        "pb_ratio": 2.66
       },
       "expense_ratio": "1.11%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 19.02,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
@@ -126,11 +186,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.17%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 24.11,
+        "pb_ratio": 3.6
       },
       "expense_ratio": "0.17%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 24.11,
+      "pb_ratio": 3.6
     },
     {
       "fund_name": "UTI Flexi Cap Fund Direct Growth",
@@ -138,11 +204,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.01%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.3,
+        "pb_ratio": 6.04
       },
       "expense_ratio": "1.01%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.3,
+      "pb_ratio": 6.04
     },
     {
       "fund_name": "UTI Money Market Fund Regular Plan Growth",
@@ -150,11 +222,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.22%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Anurag Mittal",
+        "pe_ratio": 3.44,
+        "pb_ratio": null
       },
       "expense_ratio": "0.22%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Anurag Mittal",
+      "pe_ratio": 3.44,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Liquid Direct Growth",
@@ -162,11 +240,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.15%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Amit Sharma",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
       },
       "expense_ratio": "0.15%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Sharma",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI MNC Fund Direct Growth",
@@ -174,11 +258,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.25%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 37.76,
+        "pb_ratio": 6.93
       },
       "expense_ratio": "1.25%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 37.76,
+      "pb_ratio": 6.93
     },
     {
       "fund_name": "UTI India Consumer Fund Direct Growth",
@@ -186,11 +276,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.57%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Vicky Punjabi",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
       },
       "expense_ratio": "1.57%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
@@ -198,11 +294,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.27%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 29.01,
+        "pb_ratio": 3.07
       },
       "expense_ratio": "1.27%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 29.01,
+      "pb_ratio": 3.07
     },
     {
       "fund_name": "UTI Healthcare Fund Direct IDCW",
@@ -210,11 +312,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.31%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
       },
       "expense_ratio": "1.31%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
@@ -222,11 +330,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.45%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Anurag Mittal",
+        "pe_ratio": 20.27,
+        "pb_ratio": 2.66
       },
-      "expense_ratio": "0.05%",
+      "expense_ratio": "0.45%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Anurag Mittal",
+      "pe_ratio": 20.27,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI India Consumer Fund Direct IDCW",
@@ -234,11 +348,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.57%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Vicky Punjabi",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
       },
       "expense_ratio": "1.57%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Infrastructure Fund Direct Growth",
@@ -246,11 +366,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.35%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Deepesh Agarwal",
+        "pe_ratio": 21.44,
+        "pb_ratio": 3.22
       },
-      "expense_ratio": "1.89%",
+      "expense_ratio": "1.35%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Deepesh Agarwal",
+      "pe_ratio": 21.44,
+      "pb_ratio": 3.22
     },
     {
       "fund_name": "UTI Innovation Fund Direct Growth",
@@ -258,11 +384,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.42%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Nitin Jain",
+        "pe_ratio": 61.29,
+        "pb_ratio": 6.14
       },
-      "expense_ratio": "0.89%",
+      "expense_ratio": "1.42%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 61.29,
+      "pb_ratio": 6.14
     },
     {
       "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
@@ -270,11 +402,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.97%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "V Srivatsa",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
       },
       "expense_ratio": "0.97%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI Large Cap Fund Direct Growth",
@@ -282,11 +420,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.72%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
       },
-      "expense_ratio": "0.93%",
+      "expense_ratio": "0.72%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Large Cap Fund Direct IDCW",
@@ -294,11 +438,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.72%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
       },
-      "expense_ratio": "0.93%",
+      "expense_ratio": "0.72%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
@@ -306,11 +456,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.15%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Amit Sharma",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
       },
       "expense_ratio": "0.15%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Sharma",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
@@ -318,11 +474,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.42%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Pankaj Pathak",
+        "pe_ratio": 0.63,
+        "pb_ratio": null
       },
-      "expense_ratio": "0.63%",
+      "expense_ratio": "0.42%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Pankaj Pathak",
+      "pe_ratio": 0.63,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
@@ -330,11 +492,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.27%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 26.48,
+        "pb_ratio": 3.13
       },
-      "expense_ratio": "0.73%",
+      "expense_ratio": "1.27%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 26.48,
+      "pb_ratio": 3.13
     },
     {
       "fund_name": "UTI Monthly Income Scheme Direct Growth",
@@ -342,11 +510,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.68%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Not Found",
+        "pe_ratio": 29.45,
+        "pb_ratio": 3.85
       },
-      "expense_ratio": "0.56%",
+      "expense_ratio": "0.68%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Not Found",
+      "pe_ratio": 29.45,
+      "pb_ratio": 3.85
     },
     {
       "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
@@ -354,11 +528,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.89%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 28.02,
+        "pb_ratio": 5.69
       },
-      "expense_ratio": "0.58%",
+      "expense_ratio": "0.89%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.02,
+      "pb_ratio": 5.69
     },
     {
       "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
@@ -366,11 +546,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.09%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Not Found",
+        "pe_ratio": 32.88,
+        "pb_ratio": 6.72
       },
-      "expense_ratio": "2.12%",
+      "expense_ratio": "1.09%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Not Found",
+      "pe_ratio": 32.88,
+      "pb_ratio": 6.72
     },
     {
       "fund_name": "UTI Multi Cap Fund Direct Growth",
@@ -378,11 +564,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "1.09%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 24.64,
+        "pb_ratio": 4.12
       },
-      "expense_ratio": "0.42%",
+      "expense_ratio": "1.09%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 24.64,
+      "pb_ratio": 4.12
     },
     {
       "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
@@ -390,11 +582,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.38%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 10.76,
+        "pb_ratio": 1.51
       },
-      "expense_ratio": "0.62%",
+      "expense_ratio": "0.38%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 10.76,
+      "pb_ratio": 1.51
     },
     {
       "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
@@ -402,11 +600,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.41%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 27.06,
+        "pb_ratio": 5.0
       },
-      "expense_ratio": "0.69%",
+      "expense_ratio": "0.41%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 27.06,
+      "pb_ratio": 5.0
     },
     {
       "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
@@ -414,11 +618,17 @@
       "chunk_type": "expense_information",
       "data": {
         "expense_ratio": "0.39%",
-        "stamp_duty": "0.005%"
+        "stamp_duty": "0.005%",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 28.81,
+        "pb_ratio": 3.98
       },
-      "expense_ratio": "0.68%",
+      "expense_ratio": "0.39%",
       "stamp_duty": "0.005%",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.81,
+      "pb_ratio": 3.98
     }
   ],
   "performance_metrics": [
@@ -428,8 +638,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 20.14,
-        "pb_ratio": 3.03
-      }
+        "pb_ratio": 3.03,
+        "fund_manager": "V Srivatsa"
+      },
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
@@ -437,8 +651,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 25.55,
-        "pb_ratio": 3.79
-      }
+        "pb_ratio": 3.79,
+        "fund_manager": "Amit Kumar Premchandani"
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 25.55,
+      "pb_ratio": 3.79
     },
     {
       "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
@@ -446,8 +664,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 31.03,
-        "pb_ratio": 5.58
-      }
+        "pb_ratio": 5.58,
+        "fund_manager": "Sachin Trivedi"
+      },
+      "fund_manager": "Sachin Trivedi",
+      "pe_ratio": 31.03,
+      "pb_ratio": 5.58
     },
     {
       "fund_name": "UTI Healthcare Fund Direct Growth",
@@ -455,8 +677,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 39.36,
-        "pb_ratio": 5.6
-      }
+        "pb_ratio": 5.6,
+        "fund_manager": "Kamal Gada"
+      },
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Small Cap Fund Direct Growth",
@@ -464,8 +690,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 32.25,
-        "pb_ratio": 4.33
-      }
+        "pb_ratio": 4.33,
+        "fund_manager": "Nitin Jain"
+      },
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 32.25,
+      "pb_ratio": 4.33
     },
     {
       "fund_name": "UTI Value Fund Direct Growth",
@@ -473,8 +703,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 22.14,
-        "pb_ratio": 3.02
-      }
+        "pb_ratio": 3.02,
+        "fund_manager": "Amit Kumar Premchandani"
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 22.14,
+      "pb_ratio": 3.02
     },
     {
       "fund_name": "UTI Mid Cap Fund Direct Growth",
@@ -482,8 +716,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 32.93,
-        "pb_ratio": 4.83
-      }
+        "pb_ratio": 4.83,
+        "fund_manager": "Vishal Chopda"
+      },
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 32.93,
+      "pb_ratio": 4.83
     },
     {
       "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
@@ -491,8 +729,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 21.6,
-        "pb_ratio": 3.68
-      }
+        "pb_ratio": 3.68,
+        "fund_manager": "Sharwan Kumar Goyal"
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 21.6,
+      "pb_ratio": 3.68
     },
     {
       "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
@@ -500,8 +742,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 19.02,
-        "pb_ratio": 2.66
-      }
+        "pb_ratio": 2.66,
+        "fund_manager": "Amit Kumar Premchandani"
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 19.02,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
@@ -509,8 +755,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 24.11,
-        "pb_ratio": 3.6
-      }
+        "pb_ratio": 3.6,
+        "fund_manager": "Sharwan Kumar Goyal"
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 24.11,
+      "pb_ratio": 3.6
     },
     {
       "fund_name": "UTI Flexi Cap Fund Direct Growth",
@@ -518,8 +768,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 39.3,
-        "pb_ratio": 6.04
-      }
+        "pb_ratio": 6.04,
+        "fund_manager": "Kamal Gada"
+      },
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.3,
+      "pb_ratio": 6.04
     },
     {
       "fund_name": "UTI MNC Fund Direct Growth",
@@ -527,8 +781,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 37.76,
-        "pb_ratio": 6.93
-      }
+        "pb_ratio": 6.93,
+        "fund_manager": "Karthikraj Lakshmanan"
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 37.76,
+      "pb_ratio": 6.93
     },
     {
       "fund_name": "UTI India Consumer Fund Direct Growth",
@@ -536,8 +794,12 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 43.62,
-        "pb_ratio": 8.08
-      }
+        "pb_ratio": 8.08,
+        "fund_manager": "Vicky Punjabi"
+      },
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
@@ -545,170 +807,246 @@
       "chunk_type": "performance_metrics",
       "data": {
         "pe_ratio": 29.01,
-        "pb_ratio": 3.07
-      }
+        "pb_ratio": 3.07,
+        "fund_manager": "Vishal Chopda"
+      },
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 29.01,
+      "pb_ratio": 3.07
     },
     {
       "fund_name": "UTI Healthcare Fund Direct IDCW",
       "source_url": "https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-dividend",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 38.5,
-        "pb_ratio": 5.4
-      }
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6,
+        "fund_manager": "Kamal Gada"
+      },
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-i-come-plus-arbitrage-active-fof-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 18.2,
-        "pb_ratio": 2.5
-      }
+        "pe_ratio": 20.27,
+        "pb_ratio": 2.66,
+        "fund_manager": "Anurag Mittal"
+      },
+      "fund_manager": "Anurag Mittal",
+      "pe_ratio": 20.27,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI India Consumer Fund Direct IDCW",
       "source_url": "https://groww.in/mutual-funds/uti-india-lifestyle-fund-direct-dividend",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 42.8,
-        "pb_ratio": 7.9
-      }
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08,
+        "fund_manager": "Vicky Punjabi"
+      },
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Infrastructure Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-infrastructure-fund-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 28.6,
-        "pb_ratio": 4.2
-      }
+        "pe_ratio": 21.44,
+        "pb_ratio": 3.22,
+        "fund_manager": "Deepesh Agarwal"
+      },
+      "fund_manager": "Deepesh Agarwal",
+      "pe_ratio": 21.44,
+      "pb_ratio": 3.22
     },
     {
       "fund_name": "UTI Innovation Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-innovation-fund-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 35.4,
-        "pb_ratio": 5.8
-      }
+        "pe_ratio": 61.29,
+        "pb_ratio": 6.14,
+        "fund_manager": "Nitin Jain"
+      },
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 61.29,
+      "pb_ratio": 6.14
     },
     {
       "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
       "source_url": "https://groww.in/mutual-funds/uti-top-100-fund-direct-dividend",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 19.8,
-        "pb_ratio": 2.98
-      }
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03,
+        "fund_manager": "V Srivatsa"
+      },
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI Large Cap Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-unit-scheme-1986-mastershare-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 22.5,
-        "pb_ratio": 3.15
-      }
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9,
+        "fund_manager": "Karthikraj Lakshmanan"
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Large Cap Fund Direct IDCW",
       "source_url": "https://groww.in/mutual-funds/uti-unit-scheme-1986-mastershare-direct-dividend",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 22.3,
-        "pb_ratio": 3.12
-      }
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9,
+        "fund_manager": "Karthikraj Lakshmanan"
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
       "source_url": "https://groww.in/mutual-funds/uti-liquid-cash-plan-direct-monthly-dividend",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 5.2,
-        "pb_ratio": 1.1
-      }
+        "pe_ratio": 3.58,
+        "pb_ratio": null,
+        "fund_manager": "Amit Sharma"
+      },
+      "fund_manager": "Amit Sharma",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
       "source_url": "https://groww.in/mutual-funds/uti-long-duration-fund-direct-idcw-quarterly",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 6.8,
-        "pb_ratio": 1.35
-      }
+        "pe_ratio": 0.63,
+        "pb_ratio": null,
+        "fund_manager": "Pankaj Pathak"
+      },
+      "fund_manager": "Pankaj Pathak",
+      "pe_ratio": 0.63,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-long-term-advantage-fund-series-v-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 24.6,
-        "pb_ratio": 3.22
-      }
+        "pe_ratio": 26.48,
+        "pb_ratio": 3.13,
+        "fund_manager": "Vishal Chopda"
+      },
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 26.48,
+      "pb_ratio": 3.13
     },
     {
       "fund_name": "UTI Monthly Income Scheme Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-monthly-i-come-scheme-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 8.5,
-        "pb_ratio": 1.42
-      }
+        "pe_ratio": 29.45,
+        "pb_ratio": 3.85,
+        "fund_manager": "Not Found"
+      },
+      "fund_manager": "Not Found",
+      "pe_ratio": 29.45,
+      "pb_ratio": 3.85
     },
     {
       "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-wealth-builder-fund-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 16.8,
-        "pb_ratio": 2.34
-      }
+        "pe_ratio": 28.02,
+        "pb_ratio": 5.69,
+        "fund_manager": "Sharwan Kumar Goyal"
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.02,
+      "pb_ratio": 5.69
     },
     {
       "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-multi-cap-fund-%28ex%29-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 26.3,
-        "pb_ratio": 3.78
-      }
+        "pe_ratio": 32.88,
+        "pb_ratio": 6.72,
+        "fund_manager": "Not Found"
+      },
+      "fund_manager": "Not Found",
+      "pe_ratio": 32.88,
+      "pb_ratio": 6.72
     },
     {
       "fund_name": "UTI Multi Cap Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-multi-cap-fund-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 26.8,
-        "pb_ratio": 3.85
-      }
+        "pe_ratio": 24.64,
+        "pb_ratio": 4.12,
+        "fund_manager": "Karthikraj Lakshmanan"
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 24.64,
+      "pb_ratio": 4.12
     },
     {
       "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-nifty-500-value-50-index-fund-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 14.2,
-        "pb_ratio": 1.98
-      }
+        "pe_ratio": 10.76,
+        "pb_ratio": 1.51,
+        "fund_manager": "Sharwan Kumar Goyal"
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 10.76,
+      "pb_ratio": 1.51
     },
     {
       "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-nifty-alpha-low-volatility-30-index-fund-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 19.4,
-        "pb_ratio": 2.87
-      }
+        "pe_ratio": 27.06,
+        "pb_ratio": 5.0,
+        "fund_manager": "Sharwan Kumar Goyal"
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 27.06,
+      "pb_ratio": 5.0
     },
     {
       "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-nifty-india-manufacturing-index-fund-direct-growth",
       "chunk_type": "performance_metrics",
       "data": {
-        "pe_ratio": 18.6,
-        "pb_ratio": 2.76
-      }
+        "pe_ratio": 28.81,
+        "pb_ratio": 3.98,
+        "fund_manager": "Sharwan Kumar Goyal"
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.81,
+      "pb_ratio": 3.98
     }
   ],
   "fund_characteristics": [
@@ -722,11 +1060,15 @@
         "scheme_type": "EQUITY",
         "sub_category": "Large & MidCap",
         "is_elss": "No",
-        "category_label": "EQUITY Large & MidCap"
+        "category_label": "EQUITY Large & MidCap",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
       },
       "fund_manager": "V Srivatsa",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "5291.10 Cr"
+      "fund_size": "5291.10 Cr",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
@@ -734,16 +1076,20 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "3778.10 Cr",
-        "fund_manager": "Vetri Subramaniam, Lalit Nambiar",
+        "fund_manager": "Amit Kumar Premchandani",
         "lock_in": "3Y",
         "scheme_type": "ELSS",
         "sub_category": "ELSS",
         "is_elss": "Yes",
-        "category_label": "ELSS"
+        "category_label": "ELSS",
+        "pe_ratio": 25.55,
+        "pb_ratio": 3.79
       },
       "fund_manager": "Amit Kumar Premchandani",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "3778.10 Cr"
+      "fund_size": "3778.10 Cr",
+      "pe_ratio": 25.55,
+      "pb_ratio": 3.79
     },
     {
       "fund_name": "Where can I get the transaction history?",
@@ -759,15 +1105,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "608.97 Cr",
-        "fund_manager": "Ayush Jain",
+        "fund_manager": "Sharwan Kumar Goyal",
         "scheme_type": "DEBT",
         "sub_category": "Gold",
         "is_elss": "No",
-        "category_label": "DEBT Gold"
+        "category_label": "DEBT Gold",
+        "pe_ratio": 1.78,
+        "pb_ratio": null
       },
       "fund_manager": "Sharwan Kumar Goyal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "608.97 Cr"
+      "fund_size": "608.97 Cr",
+      "pe_ratio": 1.78,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
@@ -779,11 +1129,15 @@
         "scheme_type": "EQUITY",
         "sub_category": "Thematic",
         "is_elss": "No",
-        "category_label": "EQUITY Thematic"
+        "category_label": "EQUITY Thematic",
+        "pe_ratio": 31.03,
+        "pb_ratio": 5.58
       },
       "fund_manager": "Sachin Trivedi",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "4008.33 Cr"
+      "fund_size": "4008.33 Cr",
+      "pe_ratio": 31.03,
+      "pb_ratio": 5.58
     },
     {
       "fund_name": "UTI Healthcare Fund Direct Growth",
@@ -791,15 +1145,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "1124.88 Cr",
-        "fund_manager": "V Srivatsa, Ritesh Rathod",
+        "fund_manager": "Kamal Gada",
         "scheme_type": "EQUITY",
         "sub_category": "Sectoral",
         "is_elss": "No",
-        "category_label": "EQUITY Sectoral"
+        "category_label": "EQUITY Sectoral",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
       },
       "fund_manager": "Kamal Gada",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "1124.88 Cr"
+      "fund_size": "1124.88 Cr",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Small Cap Fund Direct Growth",
@@ -807,15 +1165,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "4917.65 Cr",
-        "fund_manager": "Kamal Gada",
+        "fund_manager": "Nitin Jain",
         "scheme_type": "EQUITY",
         "sub_category": "Small Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Small Cap"
+        "category_label": "EQUITY Small Cap",
+        "pe_ratio": 32.25,
+        "pb_ratio": 4.33
       },
       "fund_manager": "Nitin Jain",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "4917.65 Cr"
+      "fund_size": "4917.65 Cr",
+      "pe_ratio": 32.25,
+      "pb_ratio": 4.33
     },
     {
       "fund_name": "UTI Value Fund Direct Growth",
@@ -823,15 +1185,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "10057.81 Cr",
-        "fund_manager": "Vetri Subramaniam, Amit Premchandani",
+        "fund_manager": "Amit Kumar Premchandani",
         "scheme_type": "EQUITY",
         "sub_category": "Value Oriented",
         "is_elss": "No",
-        "category_label": "EQUITY Value Oriented"
+        "category_label": "EQUITY Value Oriented",
+        "pe_ratio": 22.14,
+        "pb_ratio": 3.02
       },
       "fund_manager": "Amit Kumar Premchandani",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "10057.81 Cr"
+      "fund_size": "10057.81 Cr",
+      "pe_ratio": 22.14,
+      "pb_ratio": 3.02
     },
     {
       "fund_name": "UTI Mid Cap Fund Direct Growth",
@@ -839,15 +1205,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "12101.13 Cr",
-        "fund_manager": "Lalit Nambiar",
+        "fund_manager": "Vishal Chopda",
         "scheme_type": "EQUITY",
         "sub_category": "Mid Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Mid Cap"
+        "category_label": "EQUITY Mid Cap",
+        "pe_ratio": 32.93,
+        "pb_ratio": 4.83
       },
       "fund_manager": "Vishal Chopda",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "12101.13 Cr"
+      "fund_size": "12101.13 Cr",
+      "pe_ratio": 32.93,
+      "pb_ratio": 4.83
     },
     {
       "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
@@ -855,15 +1225,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "5941.07 Cr",
-        "fund_manager": "Kaushik Basu, Sharwan Kumar Goyal",
+        "fund_manager": "Sharwan Kumar Goyal",
         "scheme_type": "EQUITY",
         "sub_category": "Large Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Large Cap"
+        "category_label": "EQUITY Large Cap",
+        "pe_ratio": 21.6,
+        "pb_ratio": 3.68
       },
       "fund_manager": "Sharwan Kumar Goyal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "5941.07 Cr"
+      "fund_size": "5941.07 Cr",
+      "pe_ratio": 21.6,
+      "pb_ratio": 3.68
     },
     {
       "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
@@ -871,15 +1245,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "1346.79 Cr",
-        "fund_manager": "Sudhir Agrawal",
+        "fund_manager": "Amit Kumar Premchandani",
         "scheme_type": "EQUITY",
         "sub_category": "Sectoral",
         "is_elss": "No",
-        "category_label": "EQUITY Sectoral"
+        "category_label": "EQUITY Sectoral",
+        "pe_ratio": 19.02,
+        "pb_ratio": 2.66
       },
       "fund_manager": "Amit Kumar Premchandani",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "1346.79 Cr"
+      "fund_size": "1346.79 Cr",
+      "pe_ratio": 19.02,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
@@ -887,15 +1265,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "25747.56 Cr",
-        "fund_manager": "Kaushik Basu",
+        "fund_manager": "Sharwan Kumar Goyal",
         "scheme_type": "EQUITY",
         "sub_category": "Large Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Large Cap"
+        "category_label": "EQUITY Large Cap",
+        "pe_ratio": 24.11,
+        "pb_ratio": 3.6
       },
       "fund_manager": "Sharwan Kumar Goyal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "25747.56 Cr"
+      "fund_size": "25747.56 Cr",
+      "pe_ratio": 24.11,
+      "pb_ratio": 3.6
     },
     {
       "fund_name": "UTI Flexi Cap Fund Direct Growth",
@@ -903,15 +1285,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "25757.27 Cr",
-        "fund_manager": "Ajay Tyagi",
+        "fund_manager": "Kamal Gada",
         "scheme_type": "EQUITY",
         "sub_category": "Flexi Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Flexi Cap"
+        "category_label": "EQUITY Flexi Cap",
+        "pe_ratio": 39.3,
+        "pb_ratio": 6.04
       },
       "fund_manager": "Kamal Gada",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "25757.27 Cr"
+      "fund_size": "25757.27 Cr",
+      "pe_ratio": 39.3,
+      "pb_ratio": 6.04
     },
     {
       "fund_name": "UTI Money Market Fund Regular Plan Growth",
@@ -919,15 +1305,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "20351.52 Cr",
-        "fund_manager": "Amit Sharma",
+        "fund_manager": "Anurag Mittal",
         "scheme_type": "DEBT",
         "sub_category": "Money Market",
         "is_elss": "No",
-        "category_label": "DEBT Money Market"
+        "category_label": "DEBT Money Market",
+        "pe_ratio": 3.44,
+        "pb_ratio": null
       },
       "fund_manager": "Anurag Mittal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "20351.52 Cr"
+      "fund_size": "20351.52 Cr",
+      "pe_ratio": 3.44,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Liquid Direct Growth",
@@ -935,15 +1325,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "28884.74 Cr",
-        "fund_manager": "Amandeep Chopra, Amit Sharma",
+        "fund_manager": "Amit Sharma",
         "scheme_type": "LIQUID",
         "sub_category": "Liquid",
         "is_elss": "No",
-        "category_label": "LIQUID Liquid"
+        "category_label": "LIQUID Liquid",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
       },
       "fund_manager": "Amit Sharma",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "28884.74 Cr"
+      "fund_size": "28884.74 Cr",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI MNC Fund Direct Growth",
@@ -951,15 +1345,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "2904.35 Cr",
-        "fund_manager": "Swati Kulkarni",
+        "fund_manager": "Karthikraj Lakshmanan",
         "scheme_type": "EQUITY",
         "sub_category": "Thematic",
         "is_elss": "No",
-        "category_label": "EQUITY Thematic"
+        "category_label": "EQUITY Thematic",
+        "pe_ratio": 37.76,
+        "pb_ratio": 6.93
       },
       "fund_manager": "Karthikraj Lakshmanan",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "2904.35 Cr"
+      "fund_size": "2904.35 Cr",
+      "pe_ratio": 37.76,
+      "pb_ratio": 6.93
     },
     {
       "fund_name": "UTI India Consumer Fund Direct Growth",
@@ -967,15 +1365,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "734.67 Cr",
-        "fund_manager": "Lalit Nambiar, Vishal Chopda",
+        "fund_manager": "Vicky Punjabi",
         "scheme_type": "EQUITY",
         "sub_category": "Thematic",
         "is_elss": "No",
-        "category_label": "EQUITY Thematic"
+        "category_label": "EQUITY Thematic",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
       },
       "fund_manager": "Vicky Punjabi",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "734.67 Cr"
+      "fund_size": "734.67 Cr",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
@@ -983,15 +1385,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "260.96 Cr",
-        "fund_manager": "Lalit Nambiar",
+        "fund_manager": "Vishal Chopda",
         "scheme_type": "NORMAL",
         "sub_category": "ELSS",
         "is_elss": "Yes",
-        "category_label": "NORMAL ELSS"
+        "category_label": "NORMAL ELSS",
+        "pe_ratio": 29.01,
+        "pb_ratio": 3.07
       },
       "fund_manager": "Vishal Chopda",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "260.96 Cr"
+      "fund_size": "260.96 Cr",
+      "pe_ratio": 29.01,
+      "pb_ratio": 3.07
     },
     {
       "fund_name": "UTI Healthcare Fund Direct IDCW",
@@ -999,15 +1405,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "1100.12 Cr",
-        "fund_manager": "V Srivatsa, Ritesh Rathod",
+        "fund_manager": "Kamal Gada",
         "scheme_type": "EQUITY",
         "sub_category": "Sectoral",
         "is_elss": "No",
-        "category_label": "EQUITY Sectoral"
+        "category_label": "EQUITY Sectoral",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
       },
       "fund_manager": "Kamal Gada",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "1124.88 Cr"
+      "fund_size": "1100.12 Cr",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
@@ -1015,15 +1425,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "450.34 Cr",
-        "fund_manager": "Neeraj Vaidyanathan",
+        "fund_manager": "Anurag Mittal",
         "scheme_type": "HYBRID",
         "sub_category": "Arbitrage",
         "is_elss": "No",
-        "category_label": "HYBRID Arbitrage"
+        "category_label": "HYBRID Arbitrage",
+        "pe_ratio": 20.27,
+        "pb_ratio": 2.66
       },
       "fund_manager": "Anurag Mittal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "297.45 Cr"
+      "fund_size": "450.34 Cr",
+      "pe_ratio": 20.27,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI India Consumer Fund Direct IDCW",
@@ -1031,15 +1445,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "710.45 Cr",
-        "fund_manager": "Lalit Nambiar, Vishal Chopda",
+        "fund_manager": "Vicky Punjabi",
         "scheme_type": "EQUITY",
         "sub_category": "Thematic",
         "is_elss": "No",
-        "category_label": "EQUITY Thematic"
+        "category_label": "EQUITY Thematic",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
       },
       "fund_manager": "Vicky Punjabi",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "734.67 Cr"
+      "fund_size": "710.45 Cr",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Infrastructure Fund Direct Growth",
@@ -1047,15 +1465,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "850.67 Cr",
-        "fund_manager": "Sachin Trivedi",
+        "fund_manager": "Deepesh Agarwal",
         "scheme_type": "EQUITY",
         "sub_category": "Sectoral",
         "is_elss": "No",
-        "category_label": "EQUITY Sectoral"
+        "category_label": "EQUITY Sectoral",
+        "pe_ratio": 21.44,
+        "pb_ratio": 3.22
       },
       "fund_manager": "Deepesh Agarwal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "2220.98 Cr"
+      "fund_size": "850.67 Cr",
+      "pe_ratio": 21.44,
+      "pb_ratio": 3.22
     },
     {
       "fund_name": "UTI Innovation Fund Direct Growth",
@@ -1063,15 +1485,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "620.23 Cr",
-        "fund_manager": "Vetri Subramaniam",
+        "fund_manager": "Nitin Jain",
         "scheme_type": "EQUITY",
         "sub_category": "Thematic",
         "is_elss": "No",
-        "category_label": "EQUITY Thematic"
+        "category_label": "EQUITY Thematic",
+        "pe_ratio": 61.29,
+        "pb_ratio": 6.14
       },
       "fund_manager": "Nitin Jain",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "863.36 Cr"
+      "fund_size": "620.23 Cr",
+      "pe_ratio": 61.29,
+      "pb_ratio": 6.14
     },
     {
       "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
@@ -1083,11 +1509,15 @@
         "scheme_type": "EQUITY",
         "sub_category": "Large & MidCap",
         "is_elss": "No",
-        "category_label": "EQUITY Large & MidCap"
+        "category_label": "EQUITY Large & MidCap",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
       },
       "fund_manager": "V Srivatsa",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "5291.10 Cr"
+      "fund_size": "5100.45 Cr",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI Large Cap Fund Direct Growth",
@@ -1095,15 +1525,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "18234.56 Cr",
-        "fund_manager": "Kaushik Basu",
+        "fund_manager": "Karthikraj Lakshmanan",
         "scheme_type": "EQUITY",
         "sub_category": "Large Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Large Cap"
+        "category_label": "EQUITY Large Cap",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
       },
       "fund_manager": "Karthikraj Lakshmanan",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "13241.33 Cr"
+      "fund_size": "18234.56 Cr",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Large Cap Fund Direct IDCW",
@@ -1111,15 +1545,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "18100.23 Cr",
-        "fund_manager": "Kaushik Basu",
+        "fund_manager": "Karthikraj Lakshmanan",
         "scheme_type": "EQUITY",
         "sub_category": "Large Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Large Cap"
+        "category_label": "EQUITY Large Cap",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
       },
       "fund_manager": "Karthikraj Lakshmanan",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "13241.33 Cr"
+      "fund_size": "18100.23 Cr",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
@@ -1127,15 +1565,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "28500.12 Cr",
-        "fund_manager": "Amandeep Chopra, Amit Sharma",
+        "fund_manager": "Amit Sharma",
         "scheme_type": "LIQUID",
         "sub_category": "Liquid",
         "is_elss": "No",
-        "category_label": "LIQUID Liquid"
+        "category_label": "LIQUID Liquid",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
       },
       "fund_manager": "Amit Sharma",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "28884.74 Cr"
+      "fund_size": "28500.12 Cr",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
@@ -1143,15 +1585,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "2345.67 Cr",
-        "fund_manager": "Rohit Chand",
+        "fund_manager": "Pankaj Pathak",
         "scheme_type": "DEBT",
         "sub_category": "Duration",
         "is_elss": "No",
-        "category_label": "DEBT Duration"
+        "category_label": "DEBT Duration",
+        "pe_ratio": 0.63,
+        "pb_ratio": null
       },
       "fund_manager": "Pankaj Pathak",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "97.90 Cr"
+      "fund_size": "2345.67 Cr",
+      "pe_ratio": 0.63,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
@@ -1159,15 +1605,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "450.89 Cr",
-        "fund_manager": "Lalit Nambiar",
+        "fund_manager": "Vishal Chopda",
         "scheme_type": "ELSS",
         "sub_category": "ELSS",
         "is_elss": "Yes",
-        "category_label": "ELSS"
+        "category_label": "ELSS",
+        "pe_ratio": 26.48,
+        "pb_ratio": 3.13
       },
       "fund_manager": "Vishal Chopda",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "115.08 Cr"
+      "fund_size": "450.89 Cr",
+      "pe_ratio": 26.48,
+      "pb_ratio": 3.13
     },
     {
       "fund_name": "UTI Monthly Income Scheme Direct Growth",
@@ -1175,14 +1625,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "3210.45 Cr",
-        "fund_manager": "Rohit Chand",
+        "fund_manager": "Not Found",
         "scheme_type": "DEBT",
         "sub_category": "Income",
         "is_elss": "No",
-        "category_label": "DEBT Income"
+        "category_label": "DEBT Income",
+        "pe_ratio": 29.45,
+        "pb_ratio": 3.85
       },
-      "fund_size": "260.69 Cr",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "fund_size": "3210.45 Cr",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Not Found",
+      "pe_ratio": 29.45,
+      "pb_ratio": 3.85
     },
     {
       "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
@@ -1190,15 +1645,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "8765.43 Cr",
-        "fund_manager": "Neeraj Vaidyanathan",
+        "fund_manager": "Sharwan Kumar Goyal",
         "scheme_type": "HYBRID",
         "sub_category": "Multi-Asset",
         "is_elss": "No",
-        "category_label": "HYBRID Multi-Asset"
+        "category_label": "HYBRID Multi-Asset",
+        "pe_ratio": 28.02,
+        "pb_ratio": 5.69
       },
       "fund_manager": "Sharwan Kumar Goyal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "6375.80 Cr"
+      "fund_size": "8765.43 Cr",
+      "pe_ratio": 28.02,
+      "pb_ratio": 5.69
     },
     {
       "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
@@ -1206,14 +1665,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "5234.67 Cr",
-        "fund_manager": "Vetri Subramaniam",
+        "fund_manager": "Not Found",
         "scheme_type": "EQUITY",
         "sub_category": "Multi Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Multi Cap"
+        "category_label": "EQUITY Multi Cap",
+        "pe_ratio": 32.88,
+        "pb_ratio": 6.72
       },
-      "fund_size": "410.06 Cr",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "fund_size": "5234.67 Cr",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Not Found",
+      "pe_ratio": 32.88,
+      "pb_ratio": 6.72
     },
     {
       "fund_name": "UTI Multi Cap Fund Direct Growth",
@@ -1221,15 +1685,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "5456.78 Cr",
-        "fund_manager": "Vetri Subramaniam",
+        "fund_manager": "Karthikraj Lakshmanan",
         "scheme_type": "EQUITY",
         "sub_category": "Multi Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Multi Cap"
+        "category_label": "EQUITY Multi Cap",
+        "pe_ratio": 24.64,
+        "pb_ratio": 4.12
       },
       "fund_manager": "Karthikraj Lakshmanan",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "1714.30 Cr"
+      "fund_size": "5456.78 Cr",
+      "pe_ratio": 24.64,
+      "pb_ratio": 4.12
     },
     {
       "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
@@ -1237,15 +1705,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "3456.23 Cr",
-        "fund_manager": "Kaushik Basu, Sharwan Kumar Goyal",
+        "fund_manager": "Sharwan Kumar Goyal",
         "scheme_type": "EQUITY",
         "sub_category": "Large Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Large Cap"
+        "category_label": "EQUITY Large Cap",
+        "pe_ratio": 10.76,
+        "pb_ratio": 1.51
       },
       "fund_manager": "Sharwan Kumar Goyal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "543.25 Cr"
+      "fund_size": "3456.23 Cr",
+      "pe_ratio": 10.76,
+      "pb_ratio": 1.51
     },
     {
       "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
@@ -1253,15 +1725,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "2134.56 Cr",
-        "fund_manager": "Kaushik Basu",
+        "fund_manager": "Sharwan Kumar Goyal",
         "scheme_type": "EQUITY",
         "sub_category": "Large Cap",
         "is_elss": "No",
-        "category_label": "EQUITY Large Cap"
+        "category_label": "EQUITY Large Cap",
+        "pe_ratio": 27.06,
+        "pb_ratio": 5.0
       },
       "fund_manager": "Sharwan Kumar Goyal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "81.56 Cr"
+      "fund_size": "2134.56 Cr",
+      "pe_ratio": 27.06,
+      "pb_ratio": 5.0
     },
     {
       "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
@@ -1269,15 +1745,19 @@
       "chunk_type": "fund_characteristics",
       "data": {
         "fund_size": "1876.34 Cr",
-        "fund_manager": "Kaushik Basu, Sharwan Kumar Goyal",
+        "fund_manager": "Sharwan Kumar Goyal",
         "scheme_type": "EQUITY",
         "sub_category": "Thematic",
         "is_elss": "No",
-        "category_label": "EQUITY Thematic"
+        "category_label": "EQUITY Thematic",
+        "pe_ratio": 28.81,
+        "pb_ratio": 3.98
       },
       "fund_manager": "Sharwan Kumar Goyal",
       "data_source": "Groww (Scraped 2025-11-23)",
-      "fund_size": "24.58 Cr"
+      "fund_size": "1876.34 Cr",
+      "pe_ratio": 28.81,
+      "pb_ratio": 3.98
     }
   ],
   "risk_information": [
@@ -1293,8 +1773,14 @@
           "sharpe": "1.11",
           "sortino": "1.64"
         },
-        "benchmark": "NIFTY Large Midcap 250 TRI"
-      }
+        "benchmark": "NIFTY Large Midcap 250 TRI",
+        "fund_manager": "V Srivatsa",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
+      },
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
@@ -1308,8 +1794,14 @@
           "sharpe": "0.59",
           "sortino": "0.91"
         },
-        "benchmark": "NIFTY 500 TRI"
-      }
+        "benchmark": "NIFTY 500 TRI",
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 25.55,
+        "pb_ratio": 3.79
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 25.55,
+      "pb_ratio": 3.79
     },
     {
       "fund_name": "Where can I get the transaction history?",
@@ -1333,8 +1825,14 @@
           "sharpe": "1.78",
           "sortino": "3.97"
         },
-        "benchmark": "Domestic Price of Gold"
-      }
+        "benchmark": "Domestic Price of Gold",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 1.78,
+        "pb_ratio": null
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 1.78,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
@@ -1348,8 +1846,14 @@
           "sharpe": "1.08",
           "sortino": "1.42"
         },
-        "benchmark": "Nifty Transportation & Logistics TRI"
-      }
+        "benchmark": "Nifty Transportation & Logistics TRI",
+        "fund_manager": "Sachin Trivedi",
+        "pe_ratio": 31.03,
+        "pb_ratio": 5.58
+      },
+      "fund_manager": "Sachin Trivedi",
+      "pe_ratio": 31.03,
+      "pb_ratio": 5.58
     },
     {
       "fund_name": "UTI Healthcare Fund Direct Growth",
@@ -1363,8 +1867,14 @@
           "sharpe": "1.10",
           "sortino": "1.79"
         },
-        "benchmark": "BSE Healthcare TRI"
-      }
+        "benchmark": "BSE Healthcare TRI",
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
+      },
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Small Cap Fund Direct Growth",
@@ -1378,8 +1888,14 @@
           "sharpe": "0.81",
           "sortino": "1.17"
         },
-        "benchmark": "NIFTY Smallcap 250 TRI"
-      }
+        "benchmark": "NIFTY Smallcap 250 TRI",
+        "fund_manager": "Nitin Jain",
+        "pe_ratio": 32.25,
+        "pb_ratio": 4.33
+      },
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 32.25,
+      "pb_ratio": 4.33
     },
     {
       "fund_name": "UTI Value Fund Direct Growth",
@@ -1393,8 +1909,14 @@
           "sharpe": "0.96",
           "sortino": "1.55"
         },
-        "benchmark": "NIFTY 500 TRI"
-      }
+        "benchmark": "NIFTY 500 TRI",
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 22.14,
+        "pb_ratio": 3.02
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 22.14,
+      "pb_ratio": 3.02
     },
     {
       "fund_name": "UTI Mid Cap Fund Direct Growth",
@@ -1408,8 +1930,14 @@
           "sharpe": "0.73",
           "sortino": "1.03"
         },
-        "benchmark": "NIFTY Midcap 150 TRI"
-      }
+        "benchmark": "NIFTY Midcap 150 TRI",
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 32.93,
+        "pb_ratio": 4.83
+      },
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 32.93,
+      "pb_ratio": 4.83
     },
     {
       "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
@@ -1423,8 +1951,14 @@
           "sharpe": "0.69",
           "sortino": "0.95"
         },
-        "benchmark": "NIFTY Next 50 TRI"
-      }
+        "benchmark": "NIFTY Next 50 TRI",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 21.6,
+        "pb_ratio": 3.68
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 21.6,
+      "pb_ratio": 3.68
     },
     {
       "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
@@ -1438,8 +1972,14 @@
           "sharpe": "0.85",
           "sortino": "1.99"
         },
-        "benchmark": "NIFTY Financial Services TRI"
-      }
+        "benchmark": "NIFTY Financial Services TRI",
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 19.02,
+        "pb_ratio": 2.66
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 19.02,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
@@ -1453,8 +1993,14 @@
           "sharpe": "0.62",
           "sortino": "1.03"
         },
-        "benchmark": "NIFTY 50 TRI"
-      }
+        "benchmark": "NIFTY 50 TRI",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 24.11,
+        "pb_ratio": 3.6
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 24.11,
+      "pb_ratio": 3.6
     },
     {
       "fund_name": "UTI Flexi Cap Fund Direct Growth",
@@ -1468,8 +2014,14 @@
           "sharpe": "0.46",
           "sortino": "0.70"
         },
-        "benchmark": "NIFTY 500 TRI"
-      }
+        "benchmark": "NIFTY 500 TRI",
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.3,
+        "pb_ratio": 6.04
+      },
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.3,
+      "pb_ratio": 6.04
     },
     {
       "fund_name": "UTI Money Market Fund Regular Plan Growth",
@@ -1483,8 +2035,14 @@
           "sharpe": "3.44",
           "sortino": "7.72"
         },
-        "benchmark": "CRISIL Money Market A-I Index"
-      }
+        "benchmark": "CRISIL Money Market A-I Index",
+        "fund_manager": "Anurag Mittal",
+        "pe_ratio": 3.44,
+        "pb_ratio": null
+      },
+      "fund_manager": "Anurag Mittal",
+      "pe_ratio": 3.44,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Liquid Direct Growth",
@@ -1498,8 +2056,14 @@
           "sharpe": "3.58",
           "sortino": "4.94"
         },
-        "benchmark": "NIFTY Liquid Index A-I"
-      }
+        "benchmark": "NIFTY Liquid Index A-I",
+        "fund_manager": "Amit Sharma",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
+      },
+      "fund_manager": "Amit Sharma",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI MNC Fund Direct Growth",
@@ -1513,8 +2077,14 @@
           "sharpe": "0.68",
           "sortino": "0.87"
         },
-        "benchmark": "NIFTY MNC TRI"
-      }
+        "benchmark": "NIFTY MNC TRI",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 37.76,
+        "pb_ratio": 6.93
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 37.76,
+      "pb_ratio": 6.93
     },
     {
       "fund_name": "UTI India Consumer Fund Direct Growth",
@@ -1528,8 +2098,14 @@
           "sharpe": "0.59",
           "sortino": "0.78"
         },
-        "benchmark": "NIFTY India Consumption TRI"
-      }
+        "benchmark": "NIFTY India Consumption TRI",
+        "fund_manager": "Vicky Punjabi",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
+      },
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
@@ -1543,8 +2119,14 @@
           "sharpe": "0.49",
           "sortino": "0.53"
         },
-        "benchmark": "BSE 100 TRI"
-      }
+        "benchmark": "BSE 100 TRI",
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 29.01,
+        "pb_ratio": 3.07
+      },
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 29.01,
+      "pb_ratio": 3.07
     },
     {
       "fund_name": "UTI Healthcare Fund Direct IDCW",
@@ -1558,8 +2140,14 @@
           "sharpe": "1.08",
           "sortino": "1.75"
         },
-        "benchmark": "BSE Healthcare TRI"
-      }
+        "benchmark": "BSE Healthcare TRI",
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
+      },
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
@@ -1573,8 +2161,14 @@
           "sharpe": "2.34",
           "sortino": "5.67"
         },
-        "benchmark": "CRISIL Arbitrage Index"
-      }
+        "benchmark": "CRISIL Arbitrage Index",
+        "fund_manager": "Anurag Mittal",
+        "pe_ratio": 20.27,
+        "pb_ratio": 2.66
+      },
+      "fund_manager": "Anurag Mittal",
+      "pe_ratio": 20.27,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI India Consumer Fund Direct IDCW",
@@ -1588,8 +2182,14 @@
           "sharpe": "0.58",
           "sortino": "0.76"
         },
-        "benchmark": "NIFTY India Consumption TRI"
-      }
+        "benchmark": "NIFTY India Consumption TRI",
+        "fund_manager": "Vicky Punjabi",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
+      },
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Infrastructure Fund Direct Growth",
@@ -1603,8 +2203,14 @@
           "sharpe": "0.92",
           "sortino": "1.31"
         },
-        "benchmark": "Nifty Infrastructure TRI"
-      }
+        "benchmark": "Nifty Infrastructure TRI",
+        "fund_manager": "Deepesh Agarwal",
+        "pe_ratio": 21.44,
+        "pb_ratio": 3.22
+      },
+      "fund_manager": "Deepesh Agarwal",
+      "pe_ratio": 21.44,
+      "pb_ratio": 3.22
     },
     {
       "fund_name": "UTI Innovation Fund Direct Growth",
@@ -1618,8 +2224,14 @@
           "sharpe": "0.85",
           "sortino": "1.23"
         },
-        "benchmark": "NIFTY IT TRI"
-      }
+        "benchmark": "NIFTY IT TRI",
+        "fund_manager": "Nitin Jain",
+        "pe_ratio": 61.29,
+        "pb_ratio": 6.14
+      },
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 61.29,
+      "pb_ratio": 6.14
     },
     {
       "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
@@ -1633,8 +2245,14 @@
           "sharpe": "1.09",
           "sortino": "1.62"
         },
-        "benchmark": "NIFTY Large Midcap 250 TRI"
-      }
+        "benchmark": "NIFTY Large Midcap 250 TRI",
+        "fund_manager": "V Srivatsa",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
+      },
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI Large Cap Fund Direct Growth",
@@ -1648,8 +2266,14 @@
           "sharpe": "0.94",
           "sortino": "1.48"
         },
-        "benchmark": "NIFTY 50 TRI"
-      }
+        "benchmark": "NIFTY 50 TRI",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Large Cap Fund Direct IDCW",
@@ -1663,8 +2287,14 @@
           "sharpe": "0.92",
           "sortino": "1.46"
         },
-        "benchmark": "NIFTY 50 TRI"
-      }
+        "benchmark": "NIFTY 50 TRI",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
@@ -1678,8 +2308,14 @@
           "sharpe": "3.52",
           "sortino": "4.88"
         },
-        "benchmark": "NIFTY Liquid Index A-I"
-      }
+        "benchmark": "NIFTY Liquid Index A-I",
+        "fund_manager": "Amit Sharma",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
+      },
+      "fund_manager": "Amit Sharma",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
@@ -1693,8 +2329,14 @@
           "sharpe": "1.85",
           "sortino": "3.24"
         },
-        "benchmark": "CRISIL 10Y Gilt Index"
-      }
+        "benchmark": "CRISIL 10Y Gilt Index",
+        "fund_manager": "Pankaj Pathak",
+        "pe_ratio": 0.63,
+        "pb_ratio": null
+      },
+      "fund_manager": "Pankaj Pathak",
+      "pe_ratio": 0.63,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
@@ -1708,8 +2350,14 @@
           "sharpe": "0.88",
           "sortino": "1.41"
         },
-        "benchmark": "NIFTY 500 TRI"
-      }
+        "benchmark": "NIFTY 500 TRI",
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 26.48,
+        "pb_ratio": 3.13
+      },
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 26.48,
+      "pb_ratio": 3.13
     },
     {
       "fund_name": "UTI Monthly Income Scheme Direct Growth",
@@ -1723,8 +2371,14 @@
           "sharpe": "1.92",
           "sortino": "3.56"
         },
-        "benchmark": "CRISIL Composite Bond Index"
-      }
+        "benchmark": "CRISIL Composite Bond Index",
+        "fund_manager": "Not Found",
+        "pe_ratio": 29.45,
+        "pb_ratio": 3.85
+      },
+      "fund_manager": "Not Found",
+      "pe_ratio": 29.45,
+      "pb_ratio": 3.85
     },
     {
       "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
@@ -1738,8 +2392,14 @@
           "sharpe": "1.68",
           "sortino": "2.92"
         },
-        "benchmark": "NIFTY 50:NIFTY Bonds Mix"
-      }
+        "benchmark": "NIFTY 50:NIFTY Bonds Mix",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 28.02,
+        "pb_ratio": 5.69
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.02,
+      "pb_ratio": 5.69
     },
     {
       "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
@@ -1753,8 +2413,14 @@
           "sharpe": "0.87",
           "sortino": "1.29"
         },
-        "benchmark": "NIFTY 500 TRI"
-      }
+        "benchmark": "NIFTY 500 TRI",
+        "fund_manager": "Not Found",
+        "pe_ratio": 32.88,
+        "pb_ratio": 6.72
+      },
+      "fund_manager": "Not Found",
+      "pe_ratio": 32.88,
+      "pb_ratio": 6.72
     },
     {
       "fund_name": "UTI Multi Cap Fund Direct Growth",
@@ -1768,8 +2434,14 @@
           "sharpe": "0.89",
           "sortino": "1.32"
         },
-        "benchmark": "NIFTY 500 TRI"
-      }
+        "benchmark": "NIFTY 500 TRI",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 24.64,
+        "pb_ratio": 4.12
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 24.64,
+      "pb_ratio": 4.12
     },
     {
       "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
@@ -1783,8 +2455,14 @@
           "sharpe": "0.76",
           "sortino": "1.04"
         },
-        "benchmark": "NIFTY 500 Value 50 TRI"
-      }
+        "benchmark": "NIFTY 500 Value 50 TRI",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 10.76,
+        "pb_ratio": 1.51
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 10.76,
+      "pb_ratio": 1.51
     },
     {
       "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
@@ -1798,8 +2476,14 @@
           "sharpe": "1.12",
           "sortino": "1.67"
         },
-        "benchmark": "NIFTY Alpha Low-Volatility 30 TRI"
-      }
+        "benchmark": "NIFTY Alpha Low-Volatility 30 TRI",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 27.06,
+        "pb_ratio": 5.0
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 27.06,
+      "pb_ratio": 5.0
     },
     {
       "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
@@ -1813,8 +2497,14 @@
           "sharpe": "0.81",
           "sortino": "1.18"
         },
-        "benchmark": "NIFTY India Manufacturing TRI"
-      }
+        "benchmark": "NIFTY India Manufacturing TRI",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 28.81,
+        "pb_ratio": 3.98
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.81,
+      "pb_ratio": 3.98
     }
   ],
   "platform_information": [
@@ -1866,8 +2556,14 @@
             "stock": "ITC Ltd.",
             "percentage": "2.83%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "V Srivatsa",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
+      },
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
@@ -1895,8 +2591,14 @@
             "stock": "Axis Bank Ltd.",
             "percentage": "3.95%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 25.55,
+        "pb_ratio": 3.79
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 25.55,
+      "pb_ratio": 3.79
     },
     {
       "fund_name": "UTI Small Cap Fund Direct Growth",
@@ -1924,8 +2626,14 @@
             "stock": "TD Power Systems Ltd.",
             "percentage": "2.05%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Nitin Jain",
+        "pe_ratio": 32.25,
+        "pb_ratio": 4.33
+      },
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 32.25,
+      "pb_ratio": 4.33
     },
     {
       "fund_name": "UTI Mid Cap Fund Direct Growth",
@@ -1953,8 +2661,14 @@
             "stock": "Max Financial Services Ltd.",
             "percentage": "2.08%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 32.93,
+        "pb_ratio": 4.83
+      },
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 32.93,
+      "pb_ratio": 4.83
     },
     {
       "fund_name": "UTI Flexi Cap Fund Direct Growth",
@@ -1982,8 +2696,14 @@
             "stock": "Info Edge (India) Ltd.",
             "percentage": "3.76%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.3,
+        "pb_ratio": 6.04
+      },
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.3,
+      "pb_ratio": 6.04
     },
     {
       "fund_name": "UTI Value Fund Direct Growth",
@@ -2011,8 +2731,14 @@
             "stock": "Axis Bank Ltd.",
             "percentage": "3.92%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 22.14,
+        "pb_ratio": 3.02
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 22.14,
+      "pb_ratio": 3.02
     },
     {
       "fund_name": "UTI Healthcare Fund Direct Growth",
@@ -2040,8 +2766,14 @@
             "stock": "Cipla Ltd.",
             "percentage": "3.74%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
+      },
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
@@ -2069,8 +2801,14 @@
             "stock": "Interglobe Aviation Ltd.",
             "percentage": "5.02%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Sachin Trivedi",
+        "pe_ratio": 31.03,
+        "pb_ratio": 5.58
+      },
+      "fund_manager": "Sachin Trivedi",
+      "pe_ratio": 31.03,
+      "pb_ratio": 5.58
     },
     {
       "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
@@ -2098,8 +2836,14 @@
             "stock": "Bajaj Finance Ltd.",
             "percentage": "6.35%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 19.02,
+        "pb_ratio": 2.66
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 19.02,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI MNC Fund Direct Growth",
@@ -2127,8 +2871,14 @@
             "stock": "Vedanta Ltd.",
             "percentage": "4.39%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 37.76,
+        "pb_ratio": 6.93
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 37.76,
+      "pb_ratio": 6.93
     },
     {
       "fund_name": "UTI India Consumer Fund Direct Growth",
@@ -2156,8 +2906,14 @@
             "stock": "ITC Ltd.",
             "percentage": "4.58%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Vicky Punjabi",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
+      },
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
@@ -2185,8 +2941,14 @@
             "stock": "Infosys Ltd.",
             "percentage": "4.52%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 24.11,
+        "pb_ratio": 3.6
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 24.11,
+      "pb_ratio": 3.6
     },
     {
       "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
@@ -2214,8 +2976,14 @@
             "stock": "Cholamandalam Investment and Finance Company Ltd.",
             "percentage": "3.06%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 21.6,
+        "pb_ratio": 3.68
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 21.6,
+      "pb_ratio": 3.68
     },
     {
       "fund_name": "UTI Infrastructure Fund Direct Growth",
@@ -2243,8 +3011,14 @@
             "stock": "Ultratech Cement Ltd.",
             "percentage": "4.73%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Deepesh Agarwal",
+        "pe_ratio": 21.44,
+        "pb_ratio": 3.22
+      },
+      "fund_manager": "Deepesh Agarwal",
+      "pe_ratio": 21.44,
+      "pb_ratio": 3.22
     },
     {
       "fund_name": "UTI Innovation Fund Direct Growth",
@@ -2272,8 +3046,14 @@
             "stock": "FSN E-Commerce Ventures Ltd.",
             "percentage": "5.44%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Nitin Jain",
+        "pe_ratio": 61.29,
+        "pb_ratio": 6.14
+      },
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 61.29,
+      "pb_ratio": 6.14
     },
     {
       "fund_name": "UTI Multi Cap Fund Direct Growth",
@@ -2301,8 +3081,14 @@
             "stock": "Bajaj Finance Ltd.",
             "percentage": "2.60%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 24.64,
+        "pb_ratio": 4.12
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 24.64,
+      "pb_ratio": 4.12
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
@@ -2330,8 +3116,14 @@
             "stock": "Praj Industries Ltd.",
             "percentage": "4.32%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 26.48,
+        "pb_ratio": 3.13
+      },
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 26.48,
+      "pb_ratio": 3.13
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
@@ -2359,8 +3151,14 @@
             "stock": "Praj Industries Ltd.",
             "percentage": "4.48%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 29.01,
+        "pb_ratio": 3.07
+      },
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 29.01,
+      "pb_ratio": 3.07
     },
     {
       "fund_name": "UTI Gold ETF FoF Direct Growth",
@@ -2372,8 +3170,14 @@
             "stock": "UTI Gold Exchange Traded Fund",
             "percentage": "100.03%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 1.78,
+        "pb_ratio": null
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 1.78,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Liquid Direct Growth",
@@ -2401,8 +3205,14 @@
             "stock": "ICICI Securities Ltd.",
             "percentage": "2.15%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Amit Sharma",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
+      },
+      "fund_manager": "Amit Sharma",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Money Market Fund Regular Plan Growth",
@@ -2430,8 +3240,14 @@
             "stock": "Axis Bank Ltd.",
             "percentage": "2.17%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Anurag Mittal",
+        "pe_ratio": 3.44,
+        "pb_ratio": null
+      },
+      "fund_manager": "Anurag Mittal",
+      "pe_ratio": 3.44,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Healthcare Fund Direct IDCW",
@@ -2459,8 +3275,14 @@
             "stock": "Cipla Ltd.",
             "percentage": "3.74%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
+      },
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
@@ -2476,8 +3298,14 @@
             "stock": "UTI Arbitrage Fund Direct-Growth",
             "percentage": "38.26%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Anurag Mittal",
+        "pe_ratio": 20.27,
+        "pb_ratio": 2.66
+      },
+      "fund_manager": "Anurag Mittal",
+      "pe_ratio": 20.27,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI India Consumer Fund Direct IDCW",
@@ -2505,8 +3333,14 @@
             "stock": "ITC Ltd.",
             "percentage": "4.58%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Vicky Punjabi",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
+      },
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
@@ -2534,8 +3368,14 @@
             "stock": "ITC Ltd.",
             "percentage": "2.83%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "V Srivatsa",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
+      },
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI Large Cap Fund Direct Growth",
@@ -2563,8 +3403,14 @@
             "stock": "Kotak Mahindra Bank Ltd.",
             "percentage": "3.94%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Large Cap Fund Direct IDCW",
@@ -2592,8 +3438,14 @@
             "stock": "Kotak Mahindra Bank Ltd.",
             "percentage": "3.94%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
@@ -2621,8 +3473,14 @@
             "stock": "ICICI Securities Ltd.",
             "percentage": "2.15%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Amit Sharma",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
+      },
+      "fund_manager": "Amit Sharma",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
@@ -2642,8 +3500,14 @@
             "stock": "GOI",
             "percentage": "1.05%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Pankaj Pathak",
+        "pe_ratio": 0.63,
+        "pb_ratio": null
+      },
+      "fund_manager": "Pankaj Pathak",
+      "pe_ratio": 0.63,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Monthly Income Scheme Direct Growth",
@@ -2671,8 +3535,14 @@
             "stock": "GOI",
             "percentage": "7.13%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Not Found",
+        "pe_ratio": 29.45,
+        "pb_ratio": 3.85
+      },
+      "fund_manager": "Not Found",
+      "pe_ratio": 29.45,
+      "pb_ratio": 3.85
     },
     {
       "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
@@ -2700,8 +3570,14 @@
             "stock": "HDFC Bank Ltd.",
             "percentage": "2.12%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 28.02,
+        "pb_ratio": 5.69
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.02,
+      "pb_ratio": 5.69
     },
     {
       "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
@@ -2729,8 +3605,14 @@
             "stock": "Infosys Ltd.",
             "percentage": "4.94%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Not Found",
+        "pe_ratio": 32.88,
+        "pb_ratio": 6.72
+      },
+      "fund_manager": "Not Found",
+      "pe_ratio": 32.88,
+      "pb_ratio": 6.72
     },
     {
       "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
@@ -2758,8 +3640,14 @@
             "stock": "Vedanta Ltd.",
             "percentage": "5.18%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 10.76,
+        "pb_ratio": 1.51
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 10.76,
+      "pb_ratio": 1.51
     },
     {
       "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
@@ -2787,8 +3675,14 @@
             "stock": "Bharti Airtel Ltd.",
             "percentage": "4.11%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 27.06,
+        "pb_ratio": 5.0
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 27.06,
+      "pb_ratio": 5.0
     },
     {
       "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
@@ -2816,8 +3710,14 @@
             "stock": "Tata Steel Ltd.",
             "percentage": "3.95%"
           }
-        ]
-      }
+        ],
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 28.81,
+        "pb_ratio": 3.98
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.81,
+      "pb_ratio": 3.98
     }
   ],
   "nav_sip_information": [
@@ -2829,165 +3729,237 @@
         "nav": "198.78",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed less than 1 year"
+        "exit_load": "Exit load of 1% if redeemed less than 1 year",
+        "fund_manager": "V Srivatsa",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
       },
       "nav": "198.78",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-long-term-equity-fund-tax-saving-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "295.45",
+        "nav": "234.98",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 25.55,
+        "pb_ratio": 3.79
       },
       "nav": "234.98",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 25.55,
+      "pb_ratio": 3.79
     },
     {
       "fund_name": "UTI Gold ETF FoF Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-gold-etf-fof-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "18.52",
+        "nav": "23.69",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1%, if redeemed within 15 days"
+        "exit_load": "Exit load of 1%, if redeemed within 15 days",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 1.78,
+        "pb_ratio": null
       },
       "nav": "23.69",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 1.78,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-transportation-and-logistics-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "156.34",
+        "nav": "338.85",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed within 30 days."
+        "exit_load": "Exit load of 1% if redeemed within 30 days.",
+        "fund_manager": "Sachin Trivedi",
+        "pe_ratio": 31.03,
+        "pb_ratio": 5.58
       },
       "nav": "338.85",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sachin Trivedi",
+      "pe_ratio": 31.03,
+      "pb_ratio": 5.58
     },
     {
       "fund_name": "UTI Healthcare Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "167.89",
+        "nav": "325.55",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed within 30 days."
+        "exit_load": "Exit load of 1% if redeemed within 30 days.",
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
       },
       "nav": "325.55",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Small Cap Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-small-cap-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "234.12",
+        "nav": "27.77",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed within one year."
+        "exit_load": "Exit load of 1% if redeemed within one year.",
+        "fund_manager": "Nitin Jain",
+        "pe_ratio": 32.25,
+        "pb_ratio": 4.33
       },
       "nav": "27.77",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 32.25,
+      "pb_ratio": 4.33
     },
     {
       "fund_name": "UTI Value Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-value-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "312.56",
+        "nav": "189.58",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year."
+        "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year.",
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 22.14,
+        "pb_ratio": 3.02
       },
       "nav": "189.58",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 22.14,
+      "pb_ratio": 3.02
     },
     {
       "fund_name": "UTI Mid Cap Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-mid-cap-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "289.67",
+        "nav": "339.48",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed less than 1 year"
+        "exit_load": "Exit load of 1% if redeemed less than 1 year",
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 32.93,
+        "pb_ratio": 4.83
       },
       "nav": "339.48",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 32.93,
+      "pb_ratio": 4.83
     },
     {
       "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-nifty-next-50-index-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "287.23",
+        "nav": "25.38",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 21.6,
+        "pb_ratio": 3.68
       },
       "nav": "25.38",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 21.6,
+      "pb_ratio": 3.68
     },
     {
       "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
       "source_url": "https://groww.in/mutual-funds/uti-banking-sector-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "456.78",
+        "nav": "225.90",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1%, if redeemed within 30 days."
+        "exit_load": "Exit load of 1%, if redeemed within 30 days.",
+        "fund_manager": "Amit Kumar Premchandani",
+        "pe_ratio": 19.02,
+        "pb_ratio": 2.66
       },
       "nav": "225.90",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Kumar Premchandani",
+      "pe_ratio": 19.02,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-nifty-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "278.45",
+        "nav": "182.14",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 24.11,
+        "pb_ratio": 3.6
       },
       "nav": "182.14",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 24.11,
+      "pb_ratio": 3.6
     },
     {
       "fund_name": "UTI Flexi Cap Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-equity-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "412.89",
+        "nav": "352.00",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year."
+        "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year.",
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.3,
+        "pb_ratio": 6.04
       },
       "nav": "352.00",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.3,
+      "pb_ratio": 6.04
     },
     {
       "fund_name": "UTI Money Market Fund Regular Plan Growth",
@@ -2996,11 +3968,17 @@
       "data": {
         "nav": "103.45",
         "nav_date": "21-11-2025",
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Anurag Mittal",
+        "pe_ratio": 3.44,
+        "pb_ratio": null
       },
-      "nav": "7.58",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav": "103.45",
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Anurag Mittal",
+      "pe_ratio": 3.44,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Liquid Direct Growth",
@@ -3009,164 +3987,236 @@
       "data": {
         "nav": "101.23",
         "nav_date": "21-11-2025",
-        "exit_load": "Exit load of 0.0070% if redeemed within 1 day, 0.0065% if redeemed within 2 days, 0.0060% if redeemed within 3 days, 0.0055% if redeemed within 4 days, 0.0050% if redeemed within 5 days, 0.0045% if redeemed within 6 days."
+        "exit_load": "Exit load of 0.0070% if redeemed within 1 day, 0.0065% if redeemed within 2 days, 0.0060% if redeemed within 3 days, 0.0055% if redeemed within 4 days, 0.0050% if redeemed within 5 days, 0.0045% if redeemed within 6 days.",
+        "fund_manager": "Amit Sharma",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
       },
-      "nav": "7.08",
-      "nav_date": "23 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav": "101.23",
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Sharma",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI MNC Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-mnc-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "189.56",
+        "nav": "450.58",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed less than 1 year"
+        "exit_load": "Exit load of 1% if redeemed less than 1 year",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 37.76,
+        "pb_ratio": 6.93
       },
       "nav": "450.58",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 37.76,
+      "pb_ratio": 6.93
     },
     {
       "fund_name": "UTI India Consumer Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-india-lifestyle-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "156.78",
+        "nav": "64.97",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed within 30 days."
+        "exit_load": "Exit load of 1% if redeemed within 30 days.",
+        "fund_manager": "Vicky Punjabi",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
       },
       "nav": "64.97",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-long-term-advantage-fund-series-iii-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "145.34",
+        "nav": "23.29",
         "nav_date": "21-11-2025",
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 29.01,
+        "pb_ratio": 3.07
       },
       "nav": "23.29",
-      "nav_date": "24 Sep 2021",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 29.01,
+      "pb_ratio": 3.07
     },
     {
       "fund_name": "UTI Healthcare Fund Direct IDCW",
       "source_url": "https://groww.in/mutual-funds/uti-pharma-and-healthcare-fund-direct-dividend",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "165.42",
+        "nav": "251.62",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed within 30 days."
+        "exit_load": "Exit load of 1% if redeemed within 30 days.",
+        "fund_manager": "Kamal Gada",
+        "pe_ratio": 39.36,
+        "pb_ratio": 5.6
       },
       "nav": "251.62",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Kamal Gada",
+      "pe_ratio": 39.36,
+      "pb_ratio": 5.6
     },
     {
       "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-i-come-plus-arbitrage-active-fof-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "102.56",
+        "nav": "10.45",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Anurag Mittal",
+        "pe_ratio": 20.27,
+        "pb_ratio": 2.66
       },
       "nav": "10.45",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Anurag Mittal",
+      "pe_ratio": 20.27,
+      "pb_ratio": 2.66
     },
     {
       "fund_name": "UTI India Consumer Fund Direct IDCW",
       "source_url": "https://groww.in/mutual-funds/uti-india-lifestyle-fund-direct-dividend",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "154.32",
+        "nav": "57.04",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed within 30 days."
+        "exit_load": "Exit load of 1% if redeemed within 30 days.",
+        "fund_manager": "Vicky Punjabi",
+        "pe_ratio": 43.62,
+        "pb_ratio": 8.08
       },
       "nav": "57.04",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vicky Punjabi",
+      "pe_ratio": 43.62,
+      "pb_ratio": 8.08
     },
     {
       "fund_name": "UTI Infrastructure Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-infrastructure-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "178.65",
+        "nav": "152.35",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed within 30 days."
+        "exit_load": "Exit load of 1% if redeemed within 30 days.",
+        "fund_manager": "Deepesh Agarwal",
+        "pe_ratio": 21.44,
+        "pb_ratio": 3.22
       },
       "nav": "152.35",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Deepesh Agarwal",
+      "pe_ratio": 21.44,
+      "pb_ratio": 3.22
     },
     {
       "fund_name": "UTI Innovation Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-innovation-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "189.12",
+        "nav": "12.03",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1%, if redeemed within 12 months."
+        "exit_load": "Exit load of 1%, if redeemed within 12 months.",
+        "fund_manager": "Nitin Jain",
+        "pe_ratio": 61.29,
+        "pb_ratio": 6.14
       },
       "nav": "12.03",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Nitin Jain",
+      "pe_ratio": 61.29,
+      "pb_ratio": 6.14
     },
     {
       "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
       "source_url": "https://groww.in/mutual-funds/uti-top-100-fund-direct-dividend",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "196.54",
+        "nav": "97.68",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed less than 1 year"
+        "exit_load": "Exit load of 1% if redeemed less than 1 year",
+        "fund_manager": "V Srivatsa",
+        "pe_ratio": 20.14,
+        "pb_ratio": 3.03
       },
       "nav": "97.68",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "V Srivatsa",
+      "pe_ratio": 20.14,
+      "pb_ratio": 3.03
     },
     {
       "fund_name": "UTI Large Cap Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-unit-scheme-1986-mastershare-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "245.78",
+        "nav": "310.32",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year."
+        "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year.",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
       },
       "nav": "310.32",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Large Cap Fund Direct IDCW",
       "source_url": "https://groww.in/mutual-funds/uti-unit-scheme-1986-mastershare-direct-dividend",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "243.21",
+        "nav": "65.96",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year."
+        "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year.",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 25.12,
+        "pb_ratio": 3.9
       },
       "nav": "65.96",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 25.12,
+      "pb_ratio": 3.9
     },
     {
       "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
@@ -3175,135 +4225,195 @@
       "data": {
         "nav": "100.87",
         "nav_date": "21-11-2025",
-        "exit_load": "Exit load of 0.0070% if redeemed within 1 day, 0.0065% if redeemed within 2 days, 0.0060% if redeemed within 3 days, 0.0055% if redeemed within 4 days, 0.0050% if redeemed within 5 days, 0.0045% if redeemed within 6 days."
+        "exit_load": "Exit load of 0.0070% if redeemed within 1 day, 0.0065% if redeemed within 2 days, 0.0060% if redeemed within 3 days, 0.0055% if redeemed within 4 days, 0.0050% if redeemed within 5 days, 0.0045% if redeemed within 6 days.",
+        "fund_manager": "Amit Sharma",
+        "pe_ratio": 3.58,
+        "pb_ratio": null
       },
-      "nav": "7.08",
-      "nav_date": "23 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav": "100.87",
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Amit Sharma",
+      "pe_ratio": 3.58,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
       "source_url": "https://groww.in/mutual-funds/uti-long-duration-fund-direct-idcw-quarterly",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "124.56",
+        "nav": "12.02",
         "nav_date": "21-11-2025",
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Pankaj Pathak",
+        "pe_ratio": 0.63,
+        "pb_ratio": null
       },
       "nav": "12.02",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Pankaj Pathak",
+      "pe_ratio": 0.63,
+      "pb_ratio": null
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-long-term-advantage-fund-series-v-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "138.92",
+        "nav": "15.47",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Vishal Chopda",
+        "pe_ratio": 26.48,
+        "pb_ratio": 3.13
       },
       "nav": "15.47",
-      "nav_date": "24 Sep 2021",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Vishal Chopda",
+      "pe_ratio": 26.48,
+      "pb_ratio": 3.13
     },
     {
       "fund_name": "UTI Monthly Income Scheme Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-monthly-i-come-scheme-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "112.34",
+        "nav": "36.26",
         "nav_date": "21-11-2025",
-        "exit_load": "Exit load of 1% if redeemed within 1 year"
+        "exit_load": "Exit load of 1% if redeemed within 1 year",
+        "fund_manager": "Not Found",
+        "pe_ratio": 29.45,
+        "pb_ratio": 3.85
       },
       "nav": "36.26",
-      "nav_date": "02 May 2018",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Not Found",
+      "pe_ratio": 29.45,
+      "pb_ratio": 3.85
     },
     {
       "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-wealth-builder-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "167.45",
+        "nav": "87.35",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1%, if redeemed within 30 days."
+        "exit_load": "Exit load of 1%, if redeemed within 30 days.",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 28.02,
+        "pb_ratio": 5.69
       },
       "nav": "87.35",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.02,
+      "pb_ratio": 5.69
     },
     {
       "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-multi-cap-fund-%28ex%29-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "198.76",
+        "nav": "14.25",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1% if redeemed less than 1 year"
+        "exit_load": "Exit load of 1% if redeemed less than 1 year",
+        "fund_manager": "Not Found",
+        "pe_ratio": 32.88,
+        "pb_ratio": 6.72
       },
       "nav": "14.25",
-      "nav_date": "02 May 2018",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Not Found",
+      "pe_ratio": 32.88,
+      "pb_ratio": 6.72
     },
     {
       "fund_name": "UTI Multi Cap Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-multi-cap-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "201.34",
+        "nav": "10.62",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Exit load of 1%, if redeemed within 90 days."
+        "exit_load": "Exit load of 1%, if redeemed within 90 days.",
+        "fund_manager": "Karthikraj Lakshmanan",
+        "pe_ratio": 24.64,
+        "pb_ratio": 4.12
       },
       "nav": "10.62",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Karthikraj Lakshmanan",
+      "pe_ratio": 24.64,
+      "pb_ratio": 4.12
     },
     {
       "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-nifty-500-value-50-index-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "276.89",
+        "nav": "20.68",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 10.76,
+        "pb_ratio": 1.51
       },
       "nav": "20.68",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 10.76,
+      "pb_ratio": 1.51
     },
     {
       "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-nifty-alpha-low-volatility-30-index-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "289.45",
+        "nav": "9.81",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 27.06,
+        "pb_ratio": 5.0
       },
       "nav": "9.81",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 27.06,
+      "pb_ratio": 5.0
     },
     {
       "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
       "source_url": "https://groww.in/mutual-funds/uti-nifty-india-manufacturing-index-fund-direct-growth",
       "chunk_type": "nav_sip_information",
       "data": {
-        "nav": "264.12",
+        "nav": "11.81",
         "nav_date": "21-11-2025",
         "min_sip": 500,
-        "exit_load": "Nil"
+        "exit_load": "Nil",
+        "fund_manager": "Sharwan Kumar Goyal",
+        "pe_ratio": 28.81,
+        "pb_ratio": 3.98
       },
       "nav": "11.81",
-      "nav_date": "21 Nov 2025",
-      "data_source": "Groww (Scraped 2025-11-23)"
+      "nav_date": "21-11-2025",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_manager": "Sharwan Kumar Goyal",
+      "pe_ratio": 28.81,
+      "pb_ratio": 3.98
     }
   ]
 }
