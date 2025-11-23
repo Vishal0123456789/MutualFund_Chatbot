@@ -74,7 +74,18 @@ class WebGeminiFAQAssistant:
         # Load embeddings from disk
         print("Loading embeddings from disk...")
         with open(self.embeddings_path, 'rb') as f:
-            self.embeddings = pickle.load(f)
+            loaded_data = pickle.load(f)
+        
+        # Handle both old format (just array) and new format (dict with metadata)
+        if isinstance(loaded_data, dict) and 'embeddings' in loaded_data:
+            self.embeddings = loaded_data['embeddings']
+            metadata = loaded_data.get('metadata', {})
+            print(f"Embeddings version: {metadata.get('version', 'unknown')}")
+            print(f"Embeddings created: {metadata.get('timestamp', 'unknown')}")
+        else:
+            # Fallback for old format
+            self.embeddings = loaded_data
+        
         print("Embeddings loaded successfully")
     
     def find_relevant_chunks(self, question: str, top_k: int = 10) -> List[Dict]:

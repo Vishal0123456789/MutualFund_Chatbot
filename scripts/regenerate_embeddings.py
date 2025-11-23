@@ -5,6 +5,7 @@ import json
 import pickle
 import numpy as np
 from pathlib import Path
+from datetime import datetime
 from sentence_transformers import SentenceTransformer
 
 # Paths
@@ -43,10 +44,20 @@ embeddings = model.encode(chunk_texts)
 
 print(f"Embeddings shape: {embeddings.shape}")
 
-# Save embeddings
+# Save embeddings with metadata to force version change
 print(f"Saving embeddings to {embeddings_path}...")
 with open(embeddings_path, 'wb') as f:
-    pickle.dump(embeddings, f)
+    # Store embeddings with metadata
+    data_to_save = {
+        'embeddings': embeddings,
+        'metadata': {
+            'version': '2.0',
+            'chunks_count': len(chunks),
+            'model': 'all-MiniLM-L6-v2',
+            'timestamp': datetime.now().isoformat()
+        }
+    }
+    pickle.dump(data_to_save, f)
 
 print("✅ Embeddings regenerated successfully!")
 print(f"Total chunks: {len(chunks)}")
