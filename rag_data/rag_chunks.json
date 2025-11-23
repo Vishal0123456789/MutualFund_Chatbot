@@ -7,7 +7,10 @@
       "data": {
         "expense_ratio": "0.97%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.97%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
@@ -16,7 +19,10 @@
       "data": {
         "expense_ratio": "0.91%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.91%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Gold ETF FoF Direct Growth",
@@ -25,7 +31,10 @@
       "data": {
         "expense_ratio": "0.18%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.18%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
@@ -34,7 +43,10 @@
       "data": {
         "expense_ratio": "0.82%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.82%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Healthcare Fund Direct Growth",
@@ -43,7 +55,10 @@
       "data": {
         "expense_ratio": "1.31%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.31%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Small Cap Fund Direct Growth",
@@ -52,7 +67,10 @@
       "data": {
         "expense_ratio": "0.63%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.64%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Value Fund Direct Growth",
@@ -61,7 +79,10 @@
       "data": {
         "expense_ratio": "1.18%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.18%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Mid Cap Fund Direct Growth",
@@ -70,7 +91,10 @@
       "data": {
         "expense_ratio": "0.91%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.91%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
@@ -79,7 +103,10 @@
       "data": {
         "expense_ratio": "0.34%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.34%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
@@ -88,7 +115,10 @@
       "data": {
         "expense_ratio": "1.11%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.11%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
@@ -97,7 +127,10 @@
       "data": {
         "expense_ratio": "0.17%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.17%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Flexi Cap Fund Direct Growth",
@@ -106,7 +139,10 @@
       "data": {
         "expense_ratio": "1.01%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.01%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Money Market Fund Regular Plan Growth",
@@ -115,7 +151,10 @@
       "data": {
         "expense_ratio": "0.22%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.22%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Liquid Direct Growth",
@@ -124,7 +163,10 @@
       "data": {
         "expense_ratio": "0.15%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.15%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI MNC Fund Direct Growth",
@@ -133,7 +175,10 @@
       "data": {
         "expense_ratio": "1.25%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.25%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI India Consumer Fund Direct Growth",
@@ -142,7 +187,10 @@
       "data": {
         "expense_ratio": "1.57%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.57%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
@@ -151,7 +199,10 @@
       "data": {
         "expense_ratio": "1.27%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.27%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Healthcare Fund Direct IDCW",
@@ -160,7 +211,10 @@
       "data": {
         "expense_ratio": "1.31%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.31%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
@@ -169,7 +223,10 @@
       "data": {
         "expense_ratio": "0.45%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.05%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI India Consumer Fund Direct IDCW",
@@ -178,7 +235,10 @@
       "data": {
         "expense_ratio": "1.57%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.57%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Infrastructure Fund Direct Growth",
@@ -187,7 +247,10 @@
       "data": {
         "expense_ratio": "1.35%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "1.89%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Innovation Fund Direct Growth",
@@ -196,7 +259,10 @@
       "data": {
         "expense_ratio": "1.42%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.89%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
@@ -205,7 +271,10 @@
       "data": {
         "expense_ratio": "0.97%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.97%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Large Cap Fund Direct Growth",
@@ -214,7 +283,10 @@
       "data": {
         "expense_ratio": "0.72%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.93%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Large Cap Fund Direct IDCW",
@@ -223,7 +295,10 @@
       "data": {
         "expense_ratio": "0.72%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.93%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
@@ -232,7 +307,10 @@
       "data": {
         "expense_ratio": "0.15%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.15%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
@@ -241,7 +319,10 @@
       "data": {
         "expense_ratio": "0.42%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.63%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
@@ -250,7 +331,10 @@
       "data": {
         "expense_ratio": "1.27%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.73%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Monthly Income Scheme Direct Growth",
@@ -259,7 +343,10 @@
       "data": {
         "expense_ratio": "0.68%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.56%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
@@ -268,7 +355,10 @@
       "data": {
         "expense_ratio": "0.89%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.58%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
@@ -277,7 +367,10 @@
       "data": {
         "expense_ratio": "1.09%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "2.12%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Multi Cap Fund Direct Growth",
@@ -286,7 +379,10 @@
       "data": {
         "expense_ratio": "1.09%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.42%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
@@ -295,7 +391,10 @@
       "data": {
         "expense_ratio": "0.38%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.62%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
@@ -304,7 +403,10 @@
       "data": {
         "expense_ratio": "0.41%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.69%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
@@ -313,7 +415,10 @@
       "data": {
         "expense_ratio": "0.39%",
         "stamp_duty": "0.005%"
-      }
+      },
+      "expense_ratio": "0.68%",
+      "stamp_duty": "0.005%",
+      "data_source": "Groww (Scraped 2025-11-23)"
     }
   ],
   "performance_metrics": [
@@ -618,7 +723,10 @@
         "sub_category": "Large & MidCap",
         "is_elss": "No",
         "category_label": "EQUITY Large & MidCap"
-      }
+      },
+      "fund_manager": "V Srivatsa",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "5291.10 Cr"
     },
     {
       "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
@@ -632,7 +740,10 @@
         "sub_category": "ELSS",
         "is_elss": "Yes",
         "category_label": "ELSS"
-      }
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "3778.10 Cr"
     },
     {
       "fund_name": "Where can I get the transaction history?",
@@ -653,7 +764,10 @@
         "sub_category": "Gold",
         "is_elss": "No",
         "category_label": "DEBT Gold"
-      }
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "608.97 Cr"
     },
     {
       "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
@@ -666,7 +780,10 @@
         "sub_category": "Thematic",
         "is_elss": "No",
         "category_label": "EQUITY Thematic"
-      }
+      },
+      "fund_manager": "Sachin Trivedi",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "4008.33 Cr"
     },
     {
       "fund_name": "UTI Healthcare Fund Direct Growth",
@@ -679,7 +796,10 @@
         "sub_category": "Sectoral",
         "is_elss": "No",
         "category_label": "EQUITY Sectoral"
-      }
+      },
+      "fund_manager": "Kamal Gada",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "1124.88 Cr"
     },
     {
       "fund_name": "UTI Small Cap Fund Direct Growth",
@@ -692,7 +812,10 @@
         "sub_category": "Small Cap",
         "is_elss": "No",
         "category_label": "EQUITY Small Cap"
-      }
+      },
+      "fund_manager": "Nitin Jain",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "4917.65 Cr"
     },
     {
       "fund_name": "UTI Value Fund Direct Growth",
@@ -705,7 +828,10 @@
         "sub_category": "Value Oriented",
         "is_elss": "No",
         "category_label": "EQUITY Value Oriented"
-      }
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "10057.81 Cr"
     },
     {
       "fund_name": "UTI Mid Cap Fund Direct Growth",
@@ -718,7 +844,10 @@
         "sub_category": "Mid Cap",
         "is_elss": "No",
         "category_label": "EQUITY Mid Cap"
-      }
+      },
+      "fund_manager": "Vishal Chopda",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "12101.13 Cr"
     },
     {
       "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
@@ -731,7 +860,10 @@
         "sub_category": "Large Cap",
         "is_elss": "No",
         "category_label": "EQUITY Large Cap"
-      }
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "5941.07 Cr"
     },
     {
       "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
@@ -744,7 +876,10 @@
         "sub_category": "Sectoral",
         "is_elss": "No",
         "category_label": "EQUITY Sectoral"
-      }
+      },
+      "fund_manager": "Amit Kumar Premchandani",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "1346.79 Cr"
     },
     {
       "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
@@ -757,7 +892,10 @@
         "sub_category": "Large Cap",
         "is_elss": "No",
         "category_label": "EQUITY Large Cap"
-      }
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "25747.56 Cr"
     },
     {
       "fund_name": "UTI Flexi Cap Fund Direct Growth",
@@ -770,7 +908,10 @@
         "sub_category": "Flexi Cap",
         "is_elss": "No",
         "category_label": "EQUITY Flexi Cap"
-      }
+      },
+      "fund_manager": "Kamal Gada",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "25757.27 Cr"
     },
     {
       "fund_name": "UTI Money Market Fund Regular Plan Growth",
@@ -783,7 +924,10 @@
         "sub_category": "Money Market",
         "is_elss": "No",
         "category_label": "DEBT Money Market"
-      }
+      },
+      "fund_manager": "Anurag Mittal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "20351.52 Cr"
     },
     {
       "fund_name": "UTI Liquid Direct Growth",
@@ -796,7 +940,10 @@
         "sub_category": "Liquid",
         "is_elss": "No",
         "category_label": "LIQUID Liquid"
-      }
+      },
+      "fund_manager": "Amit Sharma",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "28884.74 Cr"
     },
     {
       "fund_name": "UTI MNC Fund Direct Growth",
@@ -809,7 +956,10 @@
         "sub_category": "Thematic",
         "is_elss": "No",
         "category_label": "EQUITY Thematic"
-      }
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "2904.35 Cr"
     },
     {
       "fund_name": "UTI India Consumer Fund Direct Growth",
@@ -822,7 +972,10 @@
         "sub_category": "Thematic",
         "is_elss": "No",
         "category_label": "EQUITY Thematic"
-      }
+      },
+      "fund_manager": "Vicky Punjabi",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "734.67 Cr"
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
@@ -835,7 +988,10 @@
         "sub_category": "ELSS",
         "is_elss": "Yes",
         "category_label": "NORMAL ELSS"
-      }
+      },
+      "fund_manager": "Vishal Chopda",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "260.96 Cr"
     },
     {
       "fund_name": "UTI Healthcare Fund Direct IDCW",
@@ -848,7 +1004,10 @@
         "sub_category": "Sectoral",
         "is_elss": "No",
         "category_label": "EQUITY Sectoral"
-      }
+      },
+      "fund_manager": "Kamal Gada",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "1124.88 Cr"
     },
     {
       "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
@@ -861,7 +1020,10 @@
         "sub_category": "Arbitrage",
         "is_elss": "No",
         "category_label": "HYBRID Arbitrage"
-      }
+      },
+      "fund_manager": "Anurag Mittal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "297.45 Cr"
     },
     {
       "fund_name": "UTI India Consumer Fund Direct IDCW",
@@ -874,7 +1036,10 @@
         "sub_category": "Thematic",
         "is_elss": "No",
         "category_label": "EQUITY Thematic"
-      }
+      },
+      "fund_manager": "Vicky Punjabi",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "734.67 Cr"
     },
     {
       "fund_name": "UTI Infrastructure Fund Direct Growth",
@@ -887,7 +1052,10 @@
         "sub_category": "Sectoral",
         "is_elss": "No",
         "category_label": "EQUITY Sectoral"
-      }
+      },
+      "fund_manager": "Deepesh Agarwal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "2220.98 Cr"
     },
     {
       "fund_name": "UTI Innovation Fund Direct Growth",
@@ -900,7 +1068,10 @@
         "sub_category": "Thematic",
         "is_elss": "No",
         "category_label": "EQUITY Thematic"
-      }
+      },
+      "fund_manager": "Nitin Jain",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "863.36 Cr"
     },
     {
       "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
@@ -913,7 +1084,10 @@
         "sub_category": "Large & MidCap",
         "is_elss": "No",
         "category_label": "EQUITY Large & MidCap"
-      }
+      },
+      "fund_manager": "V Srivatsa",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "5291.10 Cr"
     },
     {
       "fund_name": "UTI Large Cap Fund Direct Growth",
@@ -926,7 +1100,10 @@
         "sub_category": "Large Cap",
         "is_elss": "No",
         "category_label": "EQUITY Large Cap"
-      }
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "13241.33 Cr"
     },
     {
       "fund_name": "UTI Large Cap Fund Direct IDCW",
@@ -939,7 +1116,10 @@
         "sub_category": "Large Cap",
         "is_elss": "No",
         "category_label": "EQUITY Large Cap"
-      }
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "13241.33 Cr"
     },
     {
       "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
@@ -952,7 +1132,10 @@
         "sub_category": "Liquid",
         "is_elss": "No",
         "category_label": "LIQUID Liquid"
-      }
+      },
+      "fund_manager": "Amit Sharma",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "28884.74 Cr"
     },
     {
       "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
@@ -965,7 +1148,10 @@
         "sub_category": "Duration",
         "is_elss": "No",
         "category_label": "DEBT Duration"
-      }
+      },
+      "fund_manager": "Pankaj Pathak",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "97.90 Cr"
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
@@ -978,7 +1164,10 @@
         "sub_category": "ELSS",
         "is_elss": "Yes",
         "category_label": "ELSS"
-      }
+      },
+      "fund_manager": "Vishal Chopda",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "115.08 Cr"
     },
     {
       "fund_name": "UTI Monthly Income Scheme Direct Growth",
@@ -991,7 +1180,9 @@
         "sub_category": "Income",
         "is_elss": "No",
         "category_label": "DEBT Income"
-      }
+      },
+      "fund_size": "260.69 Cr",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
@@ -1004,7 +1195,10 @@
         "sub_category": "Multi-Asset",
         "is_elss": "No",
         "category_label": "HYBRID Multi-Asset"
-      }
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "6375.80 Cr"
     },
     {
       "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
@@ -1017,7 +1211,9 @@
         "sub_category": "Multi Cap",
         "is_elss": "No",
         "category_label": "EQUITY Multi Cap"
-      }
+      },
+      "fund_size": "410.06 Cr",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Multi Cap Fund Direct Growth",
@@ -1030,7 +1226,10 @@
         "sub_category": "Multi Cap",
         "is_elss": "No",
         "category_label": "EQUITY Multi Cap"
-      }
+      },
+      "fund_manager": "Karthikraj Lakshmanan",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "1714.30 Cr"
     },
     {
       "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
@@ -1043,7 +1242,10 @@
         "sub_category": "Large Cap",
         "is_elss": "No",
         "category_label": "EQUITY Large Cap"
-      }
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "543.25 Cr"
     },
     {
       "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
@@ -1056,7 +1258,10 @@
         "sub_category": "Large Cap",
         "is_elss": "No",
         "category_label": "EQUITY Large Cap"
-      }
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "81.56 Cr"
     },
     {
       "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
@@ -1069,7 +1274,10 @@
         "sub_category": "Thematic",
         "is_elss": "No",
         "category_label": "EQUITY Thematic"
-      }
+      },
+      "fund_manager": "Sharwan Kumar Goyal",
+      "data_source": "Groww (Scraped 2025-11-23)",
+      "fund_size": "24.58 Cr"
     }
   ],
   "risk_information": [
@@ -2622,7 +2830,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed less than 1 year"
-      }
+      },
+      "nav": "198.78",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI ELSS Tax Saver Fund Direct Growth",
@@ -2633,7 +2844,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Nil"
-      }
+      },
+      "nav": "234.98",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Gold ETF FoF Direct Growth",
@@ -2644,7 +2858,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1%, if redeemed within 15 days"
-      }
+      },
+      "nav": "23.69",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Transportation and Logistics Fund Direct Growth",
@@ -2655,7 +2872,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed within 30 days."
-      }
+      },
+      "nav": "338.85",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Healthcare Fund Direct Growth",
@@ -2666,7 +2886,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed within 30 days."
-      }
+      },
+      "nav": "325.55",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Small Cap Fund Direct Growth",
@@ -2677,7 +2900,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed within one year."
-      }
+      },
+      "nav": "27.77",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Value Fund Direct Growth",
@@ -2688,7 +2914,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year."
-      }
+      },
+      "nav": "189.58",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Mid Cap Fund Direct Growth",
@@ -2699,7 +2928,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed less than 1 year"
-      }
+      },
+      "nav": "339.48",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty Next 50 Index Fund Direct Growth",
@@ -2710,7 +2942,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Nil"
-      }
+      },
+      "nav": "25.38",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Banking and Financial Services Fund Direct Plan Growth",
@@ -2721,7 +2956,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1%, if redeemed within 30 days."
-      }
+      },
+      "nav": "225.90",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty 50 Index Fund Direct Growth",
@@ -2732,7 +2970,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Nil"
-      }
+      },
+      "nav": "182.14",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Flexi Cap Fund Direct Growth",
@@ -2743,7 +2984,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year."
-      }
+      },
+      "nav": "352.00",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Money Market Fund Regular Plan Growth",
@@ -2753,7 +2997,10 @@
         "nav": "103.45",
         "nav_date": "21-11-2025",
         "exit_load": "Nil"
-      }
+      },
+      "nav": "7.58",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Liquid Direct Growth",
@@ -2763,7 +3010,10 @@
         "nav": "101.23",
         "nav_date": "21-11-2025",
         "exit_load": "Exit load of 0.0070% if redeemed within 1 day, 0.0065% if redeemed within 2 days, 0.0060% if redeemed within 3 days, 0.0055% if redeemed within 4 days, 0.0050% if redeemed within 5 days, 0.0045% if redeemed within 6 days."
-      }
+      },
+      "nav": "7.08",
+      "nav_date": "23 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI MNC Fund Direct Growth",
@@ -2774,7 +3024,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed less than 1 year"
-      }
+      },
+      "nav": "450.58",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI India Consumer Fund Direct Growth",
@@ -2785,7 +3038,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed within 30 days."
-      }
+      },
+      "nav": "64.97",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series III Direct Growth",
@@ -2795,7 +3051,10 @@
         "nav": "145.34",
         "nav_date": "21-11-2025",
         "exit_load": "Nil"
-      }
+      },
+      "nav": "23.29",
+      "nav_date": "24 Sep 2021",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Healthcare Fund Direct IDCW",
@@ -2806,7 +3065,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed within 30 days."
-      }
+      },
+      "nav": "251.62",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Income Plus Arbitrage Active FoF Direct Growth",
@@ -2817,7 +3079,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Nil"
-      }
+      },
+      "nav": "10.45",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI India Consumer Fund Direct IDCW",
@@ -2828,7 +3093,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed within 30 days."
-      }
+      },
+      "nav": "57.04",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Infrastructure Fund Direct Growth",
@@ -2839,7 +3107,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed within 30 days."
-      }
+      },
+      "nav": "152.35",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Innovation Fund Direct Growth",
@@ -2850,7 +3121,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1%, if redeemed within 12 months."
-      }
+      },
+      "nav": "12.03",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Large & Mid Cap Fund Direct IDCW",
@@ -2861,7 +3135,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed less than 1 year"
-      }
+      },
+      "nav": "97.68",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Large Cap Fund Direct Growth",
@@ -2872,7 +3149,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year."
-      }
+      },
+      "nav": "310.32",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Large Cap Fund Direct IDCW",
@@ -2883,7 +3163,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit Load for units in excess of 10% of the investment,1% will be charged for redemption within 1 year."
-      }
+      },
+      "nav": "65.96",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Liquid Cash Plan Direct IDCW Monthly",
@@ -2893,7 +3176,10 @@
         "nav": "100.87",
         "nav_date": "21-11-2025",
         "exit_load": "Exit load of 0.0070% if redeemed within 1 day, 0.0065% if redeemed within 2 days, 0.0060% if redeemed within 3 days, 0.0055% if redeemed within 4 days, 0.0050% if redeemed within 5 days, 0.0045% if redeemed within 6 days."
-      }
+      },
+      "nav": "7.08",
+      "nav_date": "23 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Long Duration Fund Direct IDCW Quarterly",
@@ -2903,7 +3189,10 @@
         "nav": "124.56",
         "nav_date": "21-11-2025",
         "exit_load": "Nil"
-      }
+      },
+      "nav": "12.02",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Long Term Advantage Fund Series V Direct Growth",
@@ -2914,7 +3203,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Nil"
-      }
+      },
+      "nav": "15.47",
+      "nav_date": "24 Sep 2021",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Monthly Income Scheme Direct Growth",
@@ -2924,7 +3216,10 @@
         "nav": "112.34",
         "nav_date": "21-11-2025",
         "exit_load": "Exit load of 1% if redeemed within 1 year"
-      }
+      },
+      "nav": "36.26",
+      "nav_date": "02 May 2018",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Multi Asset Allocation Fund Direct Growth",
@@ -2935,7 +3230,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1%, if redeemed within 30 days."
-      }
+      },
+      "nav": "87.35",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Multi Cap Fund (Ex) Direct Growth",
@@ -2946,7 +3244,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1% if redeemed less than 1 year"
-      }
+      },
+      "nav": "14.25",
+      "nav_date": "02 May 2018",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Multi Cap Fund Direct Growth",
@@ -2957,7 +3258,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Exit load of 1%, if redeemed within 90 days."
-      }
+      },
+      "nav": "10.62",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty 500 Value 50 Index Fund Direct Growth",
@@ -2968,7 +3272,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Nil"
-      }
+      },
+      "nav": "20.68",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty Alpha Low Volatility 30 Index Fund Direct Growth",
@@ -2979,7 +3286,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Nil"
-      }
+      },
+      "nav": "9.81",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     },
     {
       "fund_name": "UTI Nifty India Manufacturing Index Fund Direct Growth",
@@ -2990,7 +3300,10 @@
         "nav_date": "21-11-2025",
         "min_sip": 500,
         "exit_load": "Nil"
-      }
+      },
+      "nav": "11.81",
+      "nav_date": "21 Nov 2025",
+      "data_source": "Groww (Scraped 2025-11-23)"
     }
   ]
 }
